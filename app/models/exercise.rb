@@ -3,5 +3,5 @@ class Exercise < ApplicationRecord
   validates :name, presence: true
   validates :description, presence: true
   # validates :category, presence: true
-  # validates :muscle_ggroup, presence: true
+  # validates :muscle_group, presence: true
 end
