@@ -25,3 +25,17 @@ exercise1.save!
 exercise2.save!
 exercise3.save!
 puts "Created #{Exercise.count} exercises"
+
+puts "Creating a routine"
+routine1 = Routine.new(title: "My First Routine", goal: "To lose weight")
+routine1.user = user1
+routine1.save!
+
+puts "Creating a couple of messages"
+message1 = Message.new(content: "Blah blah blah", role: "assistant")
+message1.routine = routine1
+message2 = Message.new(content: "Blah blah blah", role: "user")
+message2.routine = routine1
+message1.save!
+message2.save!
+
