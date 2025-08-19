@@ -1,9 +1,9 @@
-require 'open-uri'
+# require 'open-uri'
 puts "Cleaning the DB...."
-User.destroy_all
-Routine.destroy_all
-RoutineExercise.destroy_all
 Message.destroy_all
+RoutineExercise.destroy_all
+Routine.destroy_all
+User.destroy_all
 Exercise.destroy_all
 
 puts "Creating a few users.... \n"
@@ -39,3 +39,7 @@ message2.routine = routine1
 message1.save!
 message2.save!
 
+join1 = RoutineExercise.new
+join1.exercise = exercise1
+join1.routine = routine1
+join1.save!
