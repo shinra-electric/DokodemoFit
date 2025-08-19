@@ -31,12 +31,12 @@ ActiveRecord::Schema[7.1].define(version: 2025_08_19_052128) do
   end
 
   create_table "routine_exercises", force: :cascade do |t|
-    t.bigint "exercises_id", null: false
-    t.bigint "routines_id", null: false
+    t.bigint "exercise_id", null: false
+    t.bigint "routine_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["exercises_id"], name: "index_routine_exercises_on_exercises_id"
-    t.index ["routines_id"], name: "index_routine_exercises_on_routines_id"
+    t.index ["exercise_id"], name: "index_routine_exercises_on_exercise_id"
+    t.index ["routine_id"], name: "index_routine_exercises_on_routine_id"
   end
 
   create_table "routines", force: :cascade do |t|
@@ -69,7 +69,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_08_19_052128) do
   end
 
   add_foreign_key "messages", "routines"
-  add_foreign_key "routine_exercises", "exercises", column: "exercises_id"
-  add_foreign_key "routine_exercises", "routines", column: "routines_id"
+  add_foreign_key "routine_exercises", "exercises"
+  add_foreign_key "routine_exercises", "routines"
   add_foreign_key "routines", "users"
 end
