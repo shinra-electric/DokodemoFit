@@ -5,5 +5,8 @@ height: 90vh;">
 <h1 class="text-center mb-4 text-white">Routine.Ai</h1>
 <h2 class="text-center mb-5 text-white">Create a fitness routine anywhere, anytime.</h2>
 
-<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+    <div class="d-flex gap-3">
+        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-warning btn-lg" %>
+        <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-light btn-lg" %>
+    </div>
 </div>
