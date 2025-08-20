@@ -1,13 +1,12 @@
-<div class="container d-flex flex-column align-items-center justify-content-center" data-controller="routine-creator">
+<div class="container">
+
+<!-- Page Banner -->
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(<%= asset_path("easy_gym.png") %>);">
+  <div class="container">
     <h1>Your Routines</h1>
-
-        <% @routines.each do |routine| %>
-            <%= link_to routine.title, routine_path(routine) %>
-        <% end %>
-
-
+    <p>Explore your routines, add a new one, or get advice from the AI coach</p>
+    
     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">create new routine</button>
-
     <div class="modal fade" id="modalform" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -29,5 +28,37 @@
             </div>
         </div>
     </div>
+  </div>
+</div>
 
+<!-- Search Form -->
+<%= simple_form_for :search, url: routines_path, method: :get do |f| %>
+  <div class="search-form-control form-group mt-5 mb-5 ">
+    <input class="form-control string required" type="text" name="search[query]" id="search_query" />
+    <button name="button" type="submit" class="btn btn-flat">
+      <i class="fas fa-search"></i> Search
+    </button>
+  </div>
+<% end %>
+
+<!-- Routine Cards -->
+<div class="container mb-5">
+  <div class="row">
+    <% @routines.each do |routine| %>
+    <div class="col-12 col-sm-6 col-md-4">
+    <%= link_to routine_path(routine) do %>
+      <div class="card-trip mt-4">
+        <%= image_tag 'routine_cardio.png', alt: "Cardio home gym equipment." %>
+        <div class="card-trip-infos">
+          <div>
+            <h2><%= routine.title %></h2>
+            <p><%= routine.goal %></p>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  <% end %>
+  </div>
+</div>
 </div>

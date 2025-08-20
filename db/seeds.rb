@@ -40,7 +40,6 @@ exercise_urls.each do |exercise_url|
 
   p_items = exercise_doc.search("p").children.map { |p| p.text.strip }
 
-
   span_items = exercise_doc.search(".exo-info div span").children.map { |item| item.text.strip }
 
   img_src = exercise_doc.search("#PageContainer header .container img")
@@ -50,7 +49,7 @@ exercise_urls.each do |exercise_url|
   execution = p_items[2]
   description = "#{starting_position} #{execution}"
 #   equipment_used = span_items[0]
-  main_muscle_group = span_items[1]  
+  main_muscle_group = span_items[1]
   img = img_src[0]["src"]
 
   new_exercise = Exercise.new(name: name, description: description, muscle_group: main_muscle_group, img_url: img)
@@ -60,9 +59,19 @@ end
 puts "Created #{Exercise.count} exercises"
 
 puts "Creating a routine"
-routine1 = Routine.new(title: "My First Routine", goal: "To lose weight")
+routine1 = Routine.new(title: "My Full Body Routine", goal: "Lose weight")
 routine1.user = user1
 routine1.save!
+
+puts "Creating a routine"
+routine2 = Routine.new(title: "My Arm Routine", goal: "Arm strength")
+routine2.user = user1
+routine2.save!
+
+puts "Creating a routine"
+routine3 = Routine.new(title: "My Running Routine", goal: "Run a marathon in 4 months")
+routine3.user = user1
+routine3.save!
 
 puts "Creating a couple of messages"
 message1 = Message.new(content: "Blah blah blah", role: "assistant")
@@ -77,5 +86,12 @@ join1.exercise = Exercise.first
 join1.routine = routine1
 join1.save!
 
+join2 = RoutineExercise.new
+join2.exercise = Exercise.first
+join2.routine = routine2
+join2.save!
 
-
+join3 = RoutineExercise.new
+join3.exercise = Exercise.first
+join3.routine = routine3
+join3.save!
