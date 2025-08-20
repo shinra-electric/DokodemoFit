@@ -1,0 +1,1003 @@
+[
+  {
+    "name": "Barbell Bench Press",
+    "description": "Lying on the bench, your feet flat on the floor. Grasp the bar with a grip wider than shoulder width. Your forearms should be perpendicular to the floor. Unhook the bar and slowly lower it to the lower part of your chest. As you contract your pectorals, push the load upwards until your arms are almost straight.",
+    "equipment": "Barbell, Bench",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Bench-Press_0316b783-43b2-44f8-8a2b-b177a2cfcbfc_600x600.png?v=1612137800"
+  },
+  {
+    "name": "Incline Dumbbell Bench Press",
+    "description": "Lying on the sloping bench, your feet flat on the ground, one dumbbell in each hand, pronation grip. Hold the dumbbells at your sides at chest height. Your forearms should be perpendicular to the ground. While contracting your pectorals, push the load upwards until your arms are almost straight, then return to the initial position.",
+    "equipment": "Dumbbells, Bench",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Incline-Dumbbell-Bench-Press_c2bf89a2-433f-4a8f-9801-67c679980867_600x600.png?v=1612138008"
+  },
+  {
+    "name": "Peck Deck",
+    "description": "Sitting on the \"Peck deck\" machine with your back pressed against the backrest, your forearms well supported against the padded parts provided for this purpose. Your upper arms should be parallel to the ground and in line with your shoulders. Tighten your arms as much as possible following the movement of the machine. Tighten your chest at the end of the movement and then slowly return to the initial position.",
+    "equipment": "Peck Deck machine",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Peck-Deck_600x600.png?v=1612137910"
+  },
+  {
+    "name": "Cable Crossover",
+    "description": "Grasp the handles attached to the ends of each rope and stand in the middle between the pulleys. Bend your chest slightly forward and keep your elbows slightly bent. Slowly tighten your arms in front of your chest in an arc. Keep your elbows slightly bent during the movement. When your hands come together, hold the position for a moment, contracting your chest. Then slowly return to the original position.",
+    "equipment": "Cable Crossover machine",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Cable-Crossover_09c90616-2777-47ed-927e-d5987edfce09_600x600.png?v=1612138036"
+  },
+  {
+    "name": "Incline Barbell Bench Press",
+    "description": "Lying on the sloping bench with your feet flat on the floor. Grasp the bar with a grip wider than shoulder width. Your forearms should be perpendicular to the ground. Unhook the bar and slowly lower it to the top of your chest. As you contract your pectorals, push the load upwards until your arms are almost straight.",
+    "equipment": "Barbell, Bench Press",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Incline-Barbell-Bench-Press_dc0c6279-d038-44f5-a682-54c2a5e2602c_600x600.png?v=1612137944"
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "description": "Lying on the bench, your feet flat on the floor, one dumbbell in each hand, pronation grip. Hold the dumbbells at your sides at chest height. Your forearms should be perpendicular to the ground. By contracting your pectorals, push the load against upwards until your arms are almost extended, then return to the initial position.",
+    "equipment": "Dumbbells, Bench",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Bench-Press_13090f67-ccfc-4f3a-9bab-e75d753fa9fa_600x600.png?v=1612137970"
+  },
+  {
+    "name": "Dumbbell Fly",
+    "description": "Lying on the bench, your feet flat on the floor, one dumbbell in each hand. Hold the weights in a neutral grip, arms outstretched above your chest. Slowly lower the dumbbells to the sides in an arc with your arms until you feel a stretch in your pectorals. Do not go below shoulder level. Then return to the original position, performing the same arc.",
+    "equipment": "Dumbbells, Bench",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Fly_119e2918-4241-4f55-bd77-c98a0c76c6c8_600x600.png?v=1612137840"
+  },
+  {
+    "name": "Incline Dumbbell Fly",
+    "description": "Lying on the sloping bench, your feet flat on the floor, one dumbbell in each hand. Hold the weights in a neutral grip with your arms outstretched above your chest. Slowly lower the dumbbells to the sides in an arc with your arms until you feel a stretch in your pectorals. Do not go below shoulder level. Then return to the original position, making the same arc.",
+    "equipment": "Dumbbells, Bench",
+    "muscle_group": "Chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Incline-Dumbbell-Fly_44d253c3-da60-45b2-b0ba-88a3bb79da09_600x600.png?v=1612137870"
+  },
+  {
+    "name": "Chest Press Machine",
+    "description": "Set the chest press machine up so that when sitting down the handles are in line with the lower part of your chest. Make sure that you are sitting right back up against the seat. Grab hold of a handle in each hand, push your chest out, keep your head against the headrest. Take a deep breath, and slowly push the handles forward until your arms are almost completely extended. Pause just before lockout, and then slowly return the handles back to the start position. Pausing just before the handles stop completely and repeating for another rep.",
+    "equipment": "Chest Press machine",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Chest-Press-Machine_ab8cd29d-5698-4110-a938-098bda19b5fc_600x600.png?v=1621163108"
+  },
+  {
+    "name": "Barbell Declined Bench Press",
+    "description": "Lying on the declined bench, with your legs pressed against the pads. Holding the barbell with a grip wider than the width of your shoulders, with your hands in pronation. Your forearms should be perpendicular to the ground. Release the barbell and slowly lower it to the lower part of your pectorals. While contracting your chest muscles, push the weighted barbell upwards until your arms are almost stretched out.",
+    "equipment": "Barbell, declined bench, plates",
+    "muscle_group": "Lower chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Declined-Bench-Press_600x600.png?v=1619977283"
+  },
+  {
+    "name": "Dumbbell Declined Bench Press",
+    "description": "Lying on the declined bench, one dumbbell in each hand, pronation grip. Hold the dumbbells on the sides at chest height, elbows on the outside. Your forearms should be perpendicular to the ground. While contracting your pectorals, push the dumbbells upwards until your arms are almost stretched out, and then go back to the starting position.",
+    "equipment": "Dumbbells, declined bench, plates",
+    "muscle_group": "Lower chest",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Declined-Bench-Press_600x600.png?v=1619977242"
+  },
+  {
+    "name": "Push Ups",
+    "description": "Face down, arms outstretched, hands wide apart, resting on the floor and aligned with your pectoral muscles. Legs stretched and face pointed towards the ground. Slowly bend your arms, letting your chest come closer to the ground, until your elbows form a 90 degrees angle. Then return to the starting position by pushing on your hands.",
+    "equipment": "Chest",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Push-Ups_600x600.png?v=1640121436"
+  },
+  {
+    "name": "Lying Triceps Extension",
+    "description": "Lying on the bench, your feet flat on the floor or on the bench. Hold the EZ bar above your chest, pronated grip, hands slightly tighter than shoulder width. Slowly bend your forearms without spreading your elbows too far apart, bringing the bar to the top of your head. Then return to the initial position.",
+    "equipment": "EZ Barbell, Bench",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lying-Triceps-Extension_4affa7a2-9c1c-48f8-8003-3570d7b3a39c_600x600.png?v=1612136744"
+  },
+  {
+    "name": "Triceps Pressdown",
+    "description": "Standing facing the pulley, grasping the bar with a pronation grip, hands shoulder width apart. Carry out an extension of the forearms until your arms are fully extended. In this position, contract your triceps for a moment and then slowly return to the initial position. Keep your elbows close to your body during the whole movement.",
+    "equipment": "Cable Machine, Pressdown Bar",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Triceps-Pressdown_e759437b-6200-4b44-b484-14db770024a4_600x600.png?v=1612136845"
+  },
+  {
+    "name": "Cable Rope Pushdown",
+    "description": "Standing in front of the pulley, grasp one end of the rope in each hand in neutral grip. Extend your forearms by spreading the ends of the rope slightly apart until your arms are fully extended. In this position, contract your triceps for a moment and then slowly return to the initial position. Keep your elbows close to your body during the whole movement.",
+    "equipment": "Cable machine, rope",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Cable-Rope-Pushdown_600x600.png?v=1612136916"
+  },
+  {
+    "name": "Dumbbell Overhead Triceps Extension",
+    "description": "Sitting on a bench, back straight, grasping a dumbbell with both hands, palms against the inside of a disc (see picture). Position the dumbbell above your head, arms outstretched, triceps well contracted. Lower your forearms behind your head until your elbows form a 90° angle. Then extend the forearms, returning to the initial position.",
+    "equipment": "Dumbbell, Bench",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Overhead-Triceps-Extension_99242f13-ab4d-4e77-be12-e0f180cc93ac_600x600.png?v=1612136962"
+  },
+  {
+    "name": "Close Grip Bench Press",
+    "description": "Lying on the bench, your feet flat on the floor. Grasp the bar with a pronation grip, hands slightly tighter than shoulder width. Unhook the bar and slowly lower it to the lower part of your chest. Then push the load upwards until your arms are straight.",
+    "equipment": "EZ Barbell, Bench",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Close-Grip-Bench-Press_28c01bfb-504d-43a6-8264-bd2101d317b9_600x600.png?v=1612137028"
+  },
+  {
+    "name": "Kickback",
+    "description": "Place your left knee and left hand on a bench, with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell in your right hand. Keeping it close to your body, raise the top of your right arm until it is parallel to the ground. Perform an extension of the right arm. When it is fully extended, contract your triceps for a moment before returning to the initial position. Once you have completed your series, do the same with the other arm.",
+    "equipment": "Dumbbell, Bench",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Kickback_c8df8485-ed16-4808-96c0-7ccc27a0bec2_600x600.png?v=1612136991"
+  },
+  {
+    "name": "Reverse Grip Cable Triceps Extension with Barbell",
+    "description": "Stand in front of the cable machine and grasp the straight bar with an underhand (supinated, palms facing up) grip, hands about shoulders width apart, elbows tucked in and bent at a bit less than a 90° angle. Extend the forearms until your arms are completely stretched. In this position, squeeze your triceps, pause, and then slowly come back to the starting position. Keep the elbows tucked in throughout the movement. Repeat for desired reps.",
+    "equipment": "Straight bar, high pulley cable",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Reverse-Grip-Cable-Triceps-Extension-with-Barbell_600x600.png?v=1619978215"
+  },
+  {
+    "name": "Single-Arm Cable Triceps Extension",
+    "description": "Stand in front of the cable machine and grasp the handle with an overhand (pronated, palm facing down) grip, elbows tucked in and bent at a bit less than a 90° angle. Extend the forearms until your arm is completely stretched. In this position, squeeze your triceps, pause, and then slowly come back to the starting position. Keep the elbows tucked in throughout the movement. Repeat for desired reps and then repeat for the other arm.",
+    "equipment": "Grip handle, high pulley cable",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Arm-Cable-Triceps-Extension_600x600.png?v=1619978169"
+  },
+  {
+    "name": "Single-Arm Cable Triceps Extension with Supinated Grip",
+    "description": "Stand in front of the cable machine and grasp the handle with an underhand (supinated, palm facing up) grip, elbows tucked in and bent at a bit less than a 90° angle. Extend the forearms until your arm is completely stretched. In this position, squeeze your triceps, pause, and then slowly come back to the starting position. Keep the elbows tucked in throughout the movement. Repeat for desired reps and then repeat for the other arm.",
+    "equipment": "Grip handle, high pulley cable",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Arm-Cable-Triceps-Extension-with-Supinated-Grip_600x600.png?v=1619978117"
+  },
+  {
+    "name": "Lying Dumbbell Triceps Extension",
+    "description": "Lay back on the bench with your feet firmly on the ground or on the bench. Grab a dumbbell in each hand using a neutral grip (palms facing each other) with your arms extended above your chest. Lower slowly your forearms, while keeping your elbows tucked in as much as possible, until they reach your forehead. Then slowly come back to the starting position. Repeat for desired reps.",
+    "equipment": "Dumbbells, bench",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lying-Dumbbell-Triceps-Extension_600x600.png?v=1619978076"
+  },
+  {
+    "name": "Seated Barbell French Press",
+    "description": "Sit on an upright bench, back firmly against the bench’s back rest, and grab a straight-bar or an EZ-bar with your hands slightly narrower than shoulders width apart. The bar or EZ-bar should be above your head with your arms outstretched and your triceps squeezed. Lower slowly your forearms beyond your head until your elbows are at a 90° angle. Then slowly come back to the starting position and squeeze your triceps at the top. Keep your back straight throughout the movement. Repeat for desired reps.",
+    "equipment": "Straight bar or EZ bar, plates, bench",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Barbell-French-Press_600x600.png?v=1619978038"
+  },
+  {
+    "name": "Bench Dips",
+    "description": "Set up for the bench dip by placing two flat benches parallel to one another to around your legs’ length. Keeping your back straight and your arms outstretched, place your hands on the edge of one bench at about shoulder’s width and put your heels on the edge of the other bench, legs and buttocks swinging in the air (see picture). While keeping your elbows tucked in, slowly flex them until they are at a 90° angle. Then slowly come back to the starting position and squeeze your triceps at the top. Keep your back straight throughout the movement. Repeat for desired reps.",
+    "equipment": "2 benches",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bench-Dips_600x600.png?v=1619977992"
+  },
+  {
+    "name": "Parallel Dip Bar",
+    "description": "Grasp the two parallel bars, arms outstretched along your torso and knees bent and swinging in the air (see picture). While keeping your elbows tucked in, slowly flex them until they are at a 90° angle. Then slowly come back to the starting position and squeeze your triceps at the top. Don’t lean forward to prevent the tension from being placed on your pecs. Repeat for desired reps.",
+    "equipment": "Parallel bars",
+    "muscle_group": "Triceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Parallel-Dip-Bar_600x600.png?v=1619977962"
+  },
+  {
+    "name": "Seated Calf Raise",
+    "description": "Sitting on the machine with the front of the feet on the wedge and the lower thighs under the padded parts. While contracting the calves, raise your heels as high as possible. Stay in the high position for a moment, feeling the contraction well. Then slowly lower your heels by stretching your calves.",
+    "equipment": "Seated Calf Raise Machine",
+    "muscle_group": "Calves",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Calf-Raise_8c8641b2-10f2-4dc8-9adb-8d80fd1a16d0_600x600.png?v=1612137064"
+  },
+  {
+    "name": "Standing Calf Raise",
+    "description": "Standing with the front of the feet on the wedge and the shoulders under the padded parts of the aircraft. While contracting the calves, raise your heels as high as possible. Stay in the high position for a moment, feeling the contraction well. Then slowly lower your heels by stretching your calves.",
+    "equipment": "Standing Calf Raise machine",
+    "muscle_group": "Calves",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Calf-Raise_61746b47-98aa-49ee-bb97-5a19562592b9_600x600.png?v=1612137090"
+  },
+  {
+    "name": "Dumbbell Bent Over Row (Single Arm)",
+    "description": "Place your left knee and left hand on the bench with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell still on the ground in your right hand in a neutral grip. Keeping your arm close to your body, lift the dumbbell as high as possible by raising your elbow and keeping your forearm perpendicular to the ground. Once your series is over, do the same with the other arm.",
+    "equipment": "Dumbbell, Bench",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Bent-Over-Row-_Single-Arm_49867db3-f465-4fbc-b359-29cbdda502e2_600x600.png?v=1612138069"
+  },
+  {
+    "name": "Wide Grip Pulldown",
+    "description": "Sitting, thighs under the padded parts, the bar grasped in pronation, hands more apart than shoulder width. Keep elbows pointed outwards and back straight. Pull the bar up to your chin. Keep the contraction for a moment before slowly returning to the initial position. During the movement, do not let your elbows come forward.",
+    "equipment": "Lat Pulldown Machine, Lat Bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Wide-Grip-Pulldown_91fcba9b-47a2-4185-b093-aa542c81c55c_600x600.png?v=1612138105"
+  },
+  {
+    "name": "Seated Cable Row",
+    "description": "Sitting on the machine's bench with your feet on the wedge. Grasp the double handle attached to the cable with both hands. Keep back straight and knees slightly bent. Pull the load towards your abdomen. Tighten your back at the end of the movement by bringing your elbows as far back as possible. Then slowly return to the initial position.",
+    "equipment": "Cable Machine",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Cable-Row_9470fa48-f0d1-40b1-a980-caee9e6f2e53_600x600.png?v=1612138127"
+  },
+  {
+    "name": "Close Grip Pulldown",
+    "description": "Seated, thighs under the padded parts, the double handle grasped with both hands. Keep your back straight. Pull the load up to your upper chest without moving your elbows away from your body. Keep the contraction for a moment before slowly returning to the initial position.",
+    "equipment": "Lat Pulldown Machine, Lat Bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Close-Grip-Pulldown_072bb5ce-e3d9-4007-b8d2-d343e9d1051b_600x600.png?v=1612138178"
+  },
+  {
+    "name": "Barbell Row",
+    "description": "Standing with slightly bent knees, grasping the bar with hands in pronation, grip wider than shoulder width. Bust bent forward, keep the back straight, the chest rounded. Pull the load towards your abdomen. Tighten your back at the end of the movement, shoulders and elbows back. Then slowly return to the initial position.",
+    "equipment": "Barbell",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Row_4beb1d94-bac9-4538-9578-2d9cf93ef008_600x600.png?v=1612138201"
+  },
+  {
+    "name": "Behind Neck Pulldown",
+    "description": "Sitting, thighs under the padded parts, the bar grasped in pronation, hands more apart than shoulder width. Keep elbows pointed outwards and back straight. Pull the bar at the back of the neck. Keep the contraction for a moment before slowly returning to the initial position. During the movement, do not let your elbows come forward.",
+    "equipment": "Lat Pulldown Machine, Lat Bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Behind-Neck-Pulldown_f0f50b6b-ad34-48cd-8663-84ee6a581928_600x600.png?v=1612138228"
+  },
+  {
+    "name": "Reverse Grip Pulldown",
+    "description": "Seated, thighs under the padded parts, bar grasped in supination, hands shoulder-width apart. Keep your back straight. Pull the bar up to your upper chest. Keep the contraction for a moment, the shoulders well back before slowly returning to the initial position.",
+    "equipment": "Lat Pulldown Machine, Lat Bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Reverse-Grip-Pulldown_10c5341f-30fd-4126-8fd7-2fa05c079889_600x600.png?v=1612138255"
+  },
+  {
+    "name": "Rope Pulldown",
+    "description": "Standing facing the high pulley, knees slightly bent and bust slightly bent forward. Grasp one end of the rope in each hand in a neutral grip. Pull the rope up to your hips, letting your arms describe an arc of a circle. Keep your elbows slightly bent and close to your body. At the end of the movement, contract your back by squeezing your shoulders back, then return to the initial position.",
+    "equipment": "Cable Machine, Rope",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Pulldown_24c7b22e-bf99-4ade-ba6c-c7b2f20ffa9a_600x600.png?v=1612138283"
+  },
+  {
+    "name": "T-Bar Rows",
+    "description": "Use a T-Bar machine (or place a barbell in the corner of a room). Stand with feet either side of the bar, bend your knees, and bow forward so that your chest is directly over the plate on the barbell. Grab the handle in both hands. Keeping your posture still, pull the handles so that the plate rises towards your chest. Pause just before it touches, and then slowly lower it back down.",
+    "equipment": "T-Bar machine, plates",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/T-Bar-Rows_600x600.png?v=1612092112"
+  },
+  {
+    "name": "Barbell Bent Over Rows Supinated Grip",
+    "description": "Standing, your knees slightly bent. Grasp the bar with an underhand grip (supinated) with your hands at about shoulders width apart. Lean forward while keeping your back straight and your chest bulged. Pull the bar towards your belly button. Squeeze your back at the top of the movement, driving your shoulders and elbows behind the body. Then, slowly come back to the starting position. Keep your elbows tucked in throughout the movement.",
+    "equipment": "Bar, plates",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Bent-Over-Rows-Supinated-Grip_600x600.png?v=1619977891"
+  },
+  {
+    "name": "Pull Up",
+    "description": "Grasp the pull bar using a pronated grip, head slightly up, hands wider than shoulders width apart, and elbows slightly bent. Do a pull up by pulling your chin towards the bar. Then come back slowly to the starting position. Your segments’ length, your strength, and your shoulders’ mobility will determine how high you can pull yourself up.",
+    "equipment": "Pull bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Pull-Up_600x600.png?v=1619977612"
+  },
+  {
+    "name": "Behind the Neck Pull Up",
+    "description": "Grasp the pull bar using a pronated grip, head slightly up, hands wider than shoulders width apart, and elbows slightly bent. Do a pull up by pulling your head in front of the bar. Then come back slowly to the starting position. Your segments’ length, your strength, and your shoulders’ mobility will determine how high you can pull yourself up.",
+    "equipment": "Pull bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Behind-the-Neck-Pull-Up_600x600.png?v=1619977573"
+  },
+  {
+    "name": "Pull Up with a Supinated Grip",
+    "description": "Grasp the pull bar using an underhand (supinated) grip, head slightly up, hands about shoulders-width apart, elbows slightly bent and pointing forward. Do a pull up by pulling your chin towards the bar. Then come back slowly to the starting position. Your segments’ length, your strength, and your shoulders’ mobility will determine how high you can pull yourself up.",
+    "equipment": "Pull bar",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Pull-Up-with-a-Supinated-Grip_600x600.png?v=1619977534"
+  },
+  {
+    "name": "Straight Arm Lat Pulldown",
+    "description": "Standing, facing the high pulley cable machine, with your knees slightly bent, your torso bending over, back straight and your chest bulged. Grasp the bar with an overhand (pronated, palms facing down) grip with the elbow slightly bent. Pull the bar towards your hips while making an arc. Contract your lats by squeezing together your shoulder blades, and then slowly come back to the starting position.",
+    "equipment": "Straight bar, high pulley cable",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Straight-Arm-Lat-Pulldown_600x600.png?v=1619977498"
+  },
+  {
+    "name": "Dumbbell Bent Over Rows",
+    "description": "Standing, your knees slightly bent. Grasp the dumbbells with a neutral grip (palms facing each other). Lean forward while keeping your back straight and your chest bulged. Pull the dumbbells towards your hips. Squeeze your back at the top of the movement, driving your shoulders and elbows behind the body. Then, slowly come back to the starting position. Keep your elbows tucked in throughout the movement.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Bent-Over-Rows_600x600.png?v=1619977463"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "description": "Upper back resting crossways on the bench (see illustration). Feet on the ground, shoulder width apart, pelvis slightly lower than the height of the bench. Hold the dumbbell with both hands above your chest, with your arms almost fully extended. While keeping your elbows slightly bent, slowly lower the dumbbell behind your head in an arc. When your arms reach your head level, slowly go back to the starting position.",
+    "equipment": "Dumbbell, bench",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Pullover_600x600.png?v=1619977197"
+  },
+  {
+    "name": "Barbell Pullover",
+    "description": "Lying on a bench, feet on the ground at shoulder width apart. Hold the barbell with your hands in pronation above your chest, arms almost fully extended. With your elbows slightly bent, slowly lower the barbell behind your head in an arc. Once your arms are at your head level, slowly go back to the starting position.",
+    "equipment": "Barbell, bench",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Pullover_600x600.png?v=1619977155"
+  },
+  {
+    "name": "Barbell Deadlift",
+    "description": "Barbell placed on the ground in front of you. Feet a little less than shoulder width apart with your knees bent. With your arms fully extended, grab the barbell in pronation, hands shoulder-width apart Keep your torso slightly bent forward, back straight, shoulders pulled back and chest out. Inhale and tighten your abdominal muscles. While keeping your arms straight, lift the barbell by extending your legs and straightening your torso to reach a vertical position. Exhale at the end of the motion. Then slowly go back to the starting position. Always remember never to bend your back.",
+    "equipment": "Barbell, plates",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Deadlift_600x600.png?v=1619977112"
+  },
+  {
+    "name": "Barbell Sumo Deadlift",
+    "description": "Barbell placed on the ground in front of you. Legs apart and feet in an outward pointing position while remaining aligned with your knees. Legs bent, thighs almost horizontal (depending on your morphology). Barbell grip in pronation, with hands shoulder-width apart. Torso slightly bent forward, back straight, shoulders pulled back and chest out. Inhale and tighten your abdominal muscles. While keeping your arms straight, lift the barbell by extending your legs and straightening your torso to reach a vertical position. Exhale at the end of the motion. Then slowly go back to the starting position. Always remember never to bend your back.",
+    "equipment": "Barbell, plates",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Sumo-Deadlift_600x600.png?v=1619976908"
+  },
+  {
+    "name": "Trap Bar Deadlift",
+    "description": "Standing inside the trap barbell, with your feet a little less than shoulder width apart, and your knees bent. Grab the trap barbell handles. Torso slightly bent forward, back straight, shoulders pulled back and chest out. Inhale and tighten your abdominal muscles. While keeping your arms straight, lift the barbell by extending your legs and straightening your torso to reach a vertical position. Exhale at the end of the motion. Then slowly go back to the starting position. Always remember never to bend your back.",
+    "equipment": "Trap barbell, plates",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Trap-Bar-Deadlift_600x600.png?v=1619976866"
+  },
+  {
+    "name": "Dumbbell Deadlift",
+    "description": "Dumbbells on the ground on both sides of you. Your feet a little less than shoulder width apart, knees bent. Grab the dumbbells in a neutral grip. Torso slightly bent forward, back straight, shoulders pulled back and chest out. Inhale and tighten your abdominal muscles. While keeping your arms outstretched, lift the dumbbells by extending your legs and straightening your torso to reach a vertical position. Exhale at the end of the motion. Then, slowly go back to the starting position. Always remember never to bend your back.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Back",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Deadlift_600x600.png?v=1619976747"
+  },
+  {
+    "name": "Barbell Shrug",
+    "description": "Standing, holding the bar in front of you, pronation grip, hands shoulder-width apart. Keeping your arms outstretched, raise your shoulders as high as possible. Contract your trapezius muscles at the top of the movement, then slowly return to the initial position.",
+    "equipment": "Barbell",
+    "muscle_group": "Trapezius muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Shrug_4f8a4e15-96b9-4595-8e88-635bf83cc8ac_600x600.png?v=1612138751"
+  },
+  {
+    "name": "Dumbbell Shrugs",
+    "description": "Standing, arms stretched out along the body, one dumbbell in each hand. Keeping your arms outstretched, raise your shoulders as high as possible. Contract your trapezius muscles at the top of the movement, then slowly return to the initial position.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Trapezius muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Shrugs_69a32385-3573-471b-a66e-3abdb0d95819_600x600.png?v=1619986777"
+  },
+  {
+    "name": "Barbell Curl",
+    "description": "Standing with knees slightly bent and back straight. Hold the bar with your hands in supination, about shoulder width apart. Without making a bust movement, raise the bar by bending the forearms. Contract your biceps in the high position, then let the bar slowly come down to the initial position. Keep your elbows close to your body during the movement.",
+    "equipment": "EZ Barbell",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Curl_f38580d5-412e-4082-b453-5d319afa94fd_600x600.png?v=1612137128"
+  },
+  {
+    "name": "Alternating Dumbbell Curl",
+    "description": "Standing with knees slightly bent and back straight. Hold a dumbbell in each hand, in a neutral grip along the body. Without making a bust movement, raise a dumbbell by bending the forearm. During the movement, rotate your wrist outwards until your hand is supine in the upright position. Contract your biceps, then slowly return to the initial position. Keep your elbow close to your body during the movement. Alternate this movement one arm after the other.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
+  {
+    "name": "Rope Cable Curl",
+    "description": "Standing in front of the pulley, knees slightly bent, grasp the rope with both hands, in neutral grip, arms relaxed along the body. Without making a bust movement, bend your forearms, bringing your hands as close as possible to your shoulders, without bringing your elbows too far forward. Contract your biceps in a high position, then slowly return to the initial position.",
+    "equipment": "Cable machine, rope",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Cable-Curl_6216e254-5f77-462c-9954-ea210fff8a70_600x600.png?v=1612137195"
+  },
+  {
+    "name": "EZ Barbell Curl",
+    "description": "Standing with knees slightly bent and back straight. Hold the EZ bar with your hands in supination. Without making a movement of bust, raise the EZ bar by bending the forearms. Contract your biceps in high position, then let the bar slowly come down again in the initial position. Keep your elbows close to your body during the movement.",
+    "equipment": "EZ Barbell",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/EZ-Barbell-Curl_42cb566b-6415-4318-94e0-c93f4b442e59_600x600.png?v=1612137227"
+  },
+  {
+    "name": "EZ Barbell Preacher Curl",
+    "description": "Sitting or standing, adjust the \"Larry Scott\" armrest so that it is slightly below the level of your shoulders. Rest your upper arms on the armrest and grasp the EZ bar with your hands in supination. Slowly bend your forearms towards your shoulders while keeping your upper arms pressed against the armrest. Contract your biceps in the up position, then slowly return to the initial position. Be careful not to fully extend your forearms in the lowered position to avoid putting too much strain on the elbow joint.",
+    "equipment": "Preacher bench, EZ Barbell",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/EZ-Barbell-Preacher-Curl_4d449fee-1920-4137-970c-75d4698b268d_600x600.png?v=1612137254"
+  },
+  {
+    "name": "Hammer Curl",
+    "description": "Standing with knees slightly bent and back straight. Hold a dumbbell in each hand, in a neutral grip along the body. Without making a bust movement, raise a dumbbell by bending the forearms. Keep your hand in a neutral grip (hence the name hammer grip). Contract your biceps, then slowly return to the initial position. Keep your elbow close to your body during the movement. Alternate this movement one arm after the other.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Hammer-Curl_da9fea8b-fc81-4a4f-9af1-aea1b85239d7_600x600.png?v=1612137282"
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "description": "Sitting on a bench with the backrest tilted at an angle of 40 to 60 degrees. Let your arms hang down towards the floor. Hold a dumbbell in each hand in supination. Keeping your back well against the backrest, raise a dumbbell by bending your forearm towards your shoulder. Contract your biceps in the high position, then slowly return to the initial position. Keep your elbow close to your body during the movement. Alternate this movement one arm after the other.",
+    "equipment": "Dumbbells, bench",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Incline-Dumbbell-Curl_7debf468-cd34-49bc-8933-7f4b087e6cca_600x600.png?v=1612137309"
+  },
+  {
+    "name": "Dumbbell Concentration Curl",
+    "description": "Sitting on a bench, hold a dumbbell in your right hand, supine grip. With your chest slightly bent forward, rest your elbow on the inside of your right thigh, leaving your arm relaxed towards the ground. Slowly bend your forearm as you bring the dumbbell towards your right shoulder. Contract your biceps in the high position, then slowly return to the initial position. Once your series is completed, move to the other arm.",
+    "equipment": "Dumbbell, bench",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Concentration-Curl_289b5739-4bdd-40e6-a195-6ecfcc685126_600x600.png?v=1612137334"
+  },
+  {
+    "name": "Single-Arm Low Pulley Cable Curl",
+    "description": "Stand in front of the cable machine and grasp the handle with an underhand (supinated) grip. The knees should be slightly bent and your arm relaxed along your body. Keeping your torso fixed, elbow tucked in at your side, and eyes facing forward, slowly curl the weight up as far as possible without letting the elbow move forward excessively; only your forearm should be moving. Squeeze the biceps at the top of the movement, and then slowly lower the weight back to the starting position. Repeat for desired reps and then repeat for the other arm.",
+    "equipment": "Grip handle, low pulley cable",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Arm-Low-Pulley-Cable-Curl_600x600.png?v=1619978525"
+  },
+  {
+    "name": "Straight Bar Low Pulley Cable Curl",
+    "description": "Stand in front of the cable machine, legs shoulder width apart, and grasp the straight bar with an underhand (supinated) grip and your hands about shoulder width apart. Keeping your body fixed, elbow tucked in at your side, and eyes facing forward, slowly curl the weight up as far as possible without letting the elbow move forward excessively; only your forearms should be moving. Squeeze the biceps at the top of the movement, and then slowly lower the weight back to the starting position. Repeat for desired reps.",
+    "equipment": "Straight bar, low pulley cable",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Straight-Bar-Low-Pulley-Cable-Curl_600x600.png?v=1619978455"
+  },
+  {
+    "name": "Standing High Pulley Cable Curl",
+    "description": "grasp each of the cables with an underhand grip (supinated, palms facing up) and stand in the center with your arms outstretched. Keeping your upper arms and body fixed, curl simultaneously the handles in towards your head as far as possible. Squeeze your biceps at the top of the movement, pause, and then slowly lower the weight back to the starting position. Repeat for desired reps.",
+    "equipment": "2 grip handles, 2 low pulley cables",
+    "muscle_group": "Biceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-High-Pulley-Cable-Curl_600x600.png?v=1619978409"
+  },
+  {
+    "name": "Seated Barbell Wrist Curl",
+    "description": "Grasp a barbell using an underhand grip (supinated, palms facing up) and sit down on the end of a flat bench. Rest the back of your forearms on the top of your thighs or on the end of the bench so that your wrists are just off the end of your knees or of the bench. Without moving the forearms, slowly raise your hands up as far as possible squeezing the forearms muscles at the top of the movement. Pause, and then slowly lower the barbell back to the starting position. Repeat for desired reps.",
+    "equipment": "Bar, plates, bench",
+    "muscle_group": "Forearms",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Barbell-Wrist-Curl_600x600.png?v=1619978365"
+  },
+  {
+    "name": "Seated Barbell Wrist Extension",
+    "description": "Grasp a barbell using an overhand grip (pronated, palms facing down) and sit down on the end of a flat bench. Rest your forearms on the top of your thighs or on the end of the bench so that your wrists are just off the end of your knees or of the bench. Without moving the forearms, slowly raise your hands up as far as possible squeezing the forearms muscles at the top of the movement. Pause, and then slowly lower the barbell back to the starting position. Repeat for desired reps.",
+    "equipment": "Bar, plates, bench",
+    "muscle_group": "Forearms",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Barbell-Wrist-Extension_600x600.png?v=1619978327"
+  },
+  {
+    "name": "Reverse Barbell Curl",
+    "description": "Stand in front of the cable machine, knees slightly bent and back straight, grasp the straight or EZ-bar with an overhand (pronated) grip and your hands about shoulder width apart. Without moving the torso, slowly raise your forearms up as far as possible squeezing them at the top of the movement, pause, and then slowly lower the barbell back to the starting position. Keep the elbows tucked in throughout the movement. Repeat for desired reps.",
+    "equipment": "Straight bar or EZ bar, plates",
+    "muscle_group": "Biceps, Forearms",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Reverse-Barbell-Curl_600x600.png?v=1619978270"
+  },
+  {
+    "name": "Crunch",
+    "description": "Lying on the ground on your back with bent knees and feet flat on the ground. You can put your hands behind your head or on your chest. Contract your abs by raising your shoulders and upper back towards your knees. Keep your lower back firmly on the ground. Stay in the upright position for a second, then slowly return to the original position.",
+    "equipment": "Abs",
+    "muscle_group": null,
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Crunch_f3498d5d-82d9-4a7f-8dee-98a2e55a62f2_600x600.png?v=1612138317"
+  },
+  {
+    "name": "Oblique Crunch",
+    "description": "Lying on the ground on the right side with bent knees. Put your left hand behind your head and your right hand on your abs to feel them working. Contract your obliques on your left side by raising your shoulder towards your hip. Stay in the upright position for a second and then slowly return to the original position.",
+    "equipment": "Abdominals (oblique)",
+    "muscle_group": null,
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Oblique-Crunch_253d0361-395d-443b-8228-aff440c1eee9_600x600.png?v=1612138354"
+  },
+  {
+    "name": "Crunch Machine",
+    "description": "Sitting on the machine holding the handles. Contract your abs and stay in position for a moment before slowly returning to the starting position.",
+    "equipment": "Crunch machine",
+    "muscle_group": "Abs",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Crunch-Machine_538b22a3-379f-4a45-874a-ec1d798235b4_600x600.png?v=1612138379"
+  },
+  {
+    "name": "Rope Ab Pulldown",
+    "description": "Kneeling on the ground facing the high pulley. Grasp one end of the rope in each hand and bring them to the height of your head. Keep your hands in this position during the movement. Bend your torso so that it is almost parallel to the ground. Contract your abs by bringing your elbows back towards your knees. Stay in the contraction position for a moment before slowly returning to the initial position.",
+    "equipment": "Cable machine, rope",
+    "muscle_group": "Abs",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Ab-Pulldown_b808db26-a4f3-4018-8007-5e31da5736dc_600x600.png?v=1612138402"
+  },
+  {
+    "name": "Plank",
+    "description": "Lying face down on the floor. Balance yourself on your forearms and toes, keeping your shoulders and buttocks at the same height. Hold this position for the desired length of time while contracting your abs.",
+    "equipment": "Abs",
+    "muscle_group": null,
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Plank_3a82d566-9cb2-4c20-b301-bc8bd635c4d1_600x600.png?v=1612138431"
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "description": "Hanging from a high bar, hands in pronation. Contract your abs by moving your knees and hips up towards your chest. Stay in the upright position for one second, then slowly return to the starting position.",
+    "equipment": "Abs",
+    "muscle_group": null,
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Hanging-Leg-Raise_36986393-d0a6-494a-981f-4ea06a99b0b5_600x600.png?v=1612138457"
+  },
+  {
+    "name": "Bent Knee Reverse Crunch",
+    "description": "Lie on your back with knees bent and feet flat on the ground. Place your arms on the ground beside you, and brace your abs. Keeping your upper back flat on the ground, raise your knees towards your chest, slightly lifting your hips from the ground. Pause, and then return your feet to the ground. Just before they touch the ground, repeat the movement.",
+    "equipment": "",
+    "muscle_group": "Abs",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bent-Knee-Reverse-Crunch_600x600.png?v=1621163012"
+  },
+  {
+    "name": "Long Arm Crunch",
+    "description": "Lie on your back with knees bent and feet flat on the ground. Place your arms above your head with your elbows in line with your ears. You can interlink your thumbs if it makes it easier for you. Keeping your elbows in line with your ears throughout the movement, raise your chest and shoulders off the ground. Pause, and then slowly lower yourself back down.",
+    "equipment": "",
+    "muscle_group": "Abs",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Long-Arm-Crunch_f0e219dc-514f-411f-ad0d-0cdf02a93d41_600x600.png?v=1621163062"
+  },
+  {
+    "name": "Plank Get Ups",
+    "description": "Get yourself into the standard push up position. Feet together, palms on the floor (shoulder width apart). Brace your abs and maintain a straight back. Slowly lower your right arm until the forearm is flat on the ground, then bring down your left arm. Once both forearms are on the ground, immediately raise your right arm back to a push up position followed by your left. This should all be done in one smooth movement, so that you are constantly in motion.",
+    "equipment": "",
+    "muscle_group": "Abs",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/plank-get-ups.svg?v=1681297916"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "description": "Sitting on a bench with your back well supported against the backrest. Hold the dumbbells in your hands (pronation grip) a little above shoulder height. Your elbows are on the outside and your forearms are perpendicular to the ground. Push the dumbbells upwards. Until your arms are fully extended. Then return to the original position.",
+    "equipment": "Dumbbells, bench",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Shoulder-Press_da0aa742-620a-45f7-9277-78137d38ff28_600x600.png?v=1612138495"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "description": "Standing with feet about shoulder width apart, arms along the body and a dumbbell in each hand Slowly raise the arms sideways to the horizontal, keeping the elbows slightly bent. Contract your deltoids for a moment in the high position, then slowly return to the initial position.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Deltoids (mostly the middle bundle)",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Lateral-Raise_31c81eee-81c4-4ffe-890d-ee13dd5bbf20_600x600.png?v=1612138523"
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "description": "Standing with feet about shoulder width apart, one dumbbell in each hand (pronation grip). Slowly raise the arms forward until they are parallel to the ground. Contract your deltoids for a moment in the raised position, then slowly return to the initial position.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Deltoids (mostly anterior bundle)",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Front-Raise_11804c3c-22d1-4589-a035-e30ad72149f3_600x600.png?v=1612138576"
+  },
+  {
+    "name": "High Cable Rear Delt Fly",
+    "description": "Standing between the pulleys with the right handle in the left hand and the left handle in the right hand. Your arms folded in front of you at shoulder height. Tightening your posterior deltoids and keeping your arms almost straight, pull your elbows as far back as possible in an arc. Stay in this position for a moment before returning to the initial position.",
+    "equipment": "Cable machine",
+    "muscle_group": "Deltoid muscles (mainly the posterior bundle)",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/High-Cable-Rear-Delt-Fly_600x600.png?v=1612541996"
+  },
+  {
+    "name": "Smith Machine Shoulder Press",
+    "description": "Sitting on a bench with your back well supported against the backrest. Position the bench so that the bar drops just in front of your face. Grasp the bar with your hands in pronation. Your back is well supported against the backrest, your elbows are on the outside and your forearms are perpendicular to the ground. Unhook the bar and slowly bring it to the height of your chin. Contract your shoulders by pushing the load upwards. Stop the movement just before your arms are fully extended. Then return to the down position.",
+    "equipment": "Smith machine",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Smith-Machine-Shoulder-Press_e53bea60-c273-41e9-a70d-f5fa339c6780_600x600.png?v=1612138658"
+  },
+  {
+    "name": "Barbell Upright Row",
+    "description": "Standing, holding the bar in front of you, pronation grip, hands shoulder-width apart. Lift the bar vertically to chest height. Contract for a moment, then return to the starting position. During the whole movement, keep the bar close to the body and the elbows higher than the wrists.",
+    "equipment": "Barbell",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Upright-Row_8a03db96-29ea-47df-b517-0b863f96b564_600x600.png?v=1612138684"
+  },
+  {
+    "name": "Bent-Over Lateral Raise",
+    "description": "Standing with knees slightly bent, bust bent forward, almost parallel to the ground, keeping your back straight and your head in line with your spine. Hold a dumbbell in each hand, palms facing each other. Slowly lift and move the dumbbells away from each side of your body in an arc with your arms. Contract for a moment in the raised position before returning to the initial position.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Deltoid muscles (mainly the posterior bundle)",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bent-Over-Lateral-Raise_41bd4de4-0370-4e6b-9501-37cdcc26ded4_600x600.png?v=1621163232"
+  },
+  {
+    "name": "Cable One-Arm Lateral Raise",
+    "description": "Stand with your feet shoulder-width apart, your left side close to the pulley. The handle in your right hand, against the front of your thigh. Slowly raise your arm to the side in an arc to the horizontal. Keep your elbow slightly bent. Stay in the raised position for a moment and then slowly return to the original position.",
+    "equipment": "Cable machine",
+    "muscle_group": "Deltoids (mostly anterior bundle)",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Cable-One-Arm-Lateral-Raise_3e57189f-cdf3-46ee-9a89-6ca054eae56a_600x600.png?v=1612138775"
+  },
+  {
+    "name": "Dumbbell Push Press",
+    "description": "Stand upright with a dumbbell resting on each shoulder and elbows pointed out in front of you. Feet should be shoulder width apart. Bend knees slightly and then drive upwards, pushing the dumbbells straight up in the air and finishing with arms extended above your head. Pause, and then return to starting position.",
+    "equipment": "Dumbbells",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Push-Press_f9229ee9-08e7-4aeb-8e41-ebd897e7ba8b_600x600.png?v=1621162780"
+  },
+  {
+    "name": "Barbell Push Press",
+    "description": "Stand upright with a barbell resting on your upper chest and shoulders and elbows pointed out in front of you. Feet should be shoulder width apart. Bend knees slightly and then drive upwards, pushing the barbell straight up in the air and finishing with arms extended above your head. Pause, and then return to starting position.",
+    "equipment": "Barbell",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Push-Press_8ba0542a-aba8-45ce-bdee-1a3eb4736514_600x600.png?v=1621162658"
+  },
+  {
+    "name": "Single-Arm Cable Front Raise",
+    "description": "Standing, your back facing the cable machine, with your knees slightly bent. Grasp the handle with an overhand (pronated), your arm along your body with the elbow slightly bent. While keeping your elbow slightly bent, slowly raise forward your arm while making an arc. Once the arm is parallel with the floor squeeze briefly your shoulders, and then slowly come back to the starting position. Repeat for desired reps.",
+    "equipment": "Grip handle, low pulley cable",
+    "muscle_group": "Front deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Arm-Cable-Front-Raise_600x600.png?v=1619977928"
+  },
+  {
+    "name": "Barbell Front Raise",
+    "description": "Standing, your feet about shoulders width apart, elbows slightly bent, arms along the body, grasp the handle with an overhand (pronated) grip, hands shoulders width apart. Slowly raise your arms forward until they are parallel with the floor. Squeeze briefly your shoulders at the top and then slowly come back to the starting position. Keep your back straight throughout the movement.",
+    "equipment": "Bar, plates",
+    "muscle_group": "Front deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Front-Raise_600x600.png?v=1619977846"
+  },
+  {
+    "name": "Seated Barbell Shoulder Press",
+    "description": "Sit down on the bench and unrack the bar using an overhand (pronated) grip, your elbows pointing outward. The bar stands in front of you at chin’s level. This level may vary depending on your shoulders’ flexibility. The gap between your hands should be such that your elbows are forming a 90° angle when your arms are parallel to the floor. Squeeze your shoulders while pressing the weight vertically. Stop the movement when your arms are about to be fully outstretched. Then, come back slowly to the starting position.",
+    "equipment": "Bar, plates, bench",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Barbell-Shoulder-Press_600x600.png?v=1619977796"
+  },
+  {
+    "name": "Seated Behind the Neck Barbell Shoulder Press",
+    "description": "Sit down on the bench with your back straight and your chest bulged. Unrack the bar using an overhand (pronated) grip, your elbows pointing outward. The bar stands behind you at neck’s level. This level may vary depending on your shoulders’ flexibility. The gap between your hands should be such that your elbows are forming a 90° angle when your arms are parallel to the floor. Squeeze your shoulders while pressing the weight vertically. Stop the movement when your arms are about to be fully outstretched. Then, come back slowly to the starting position.",
+    "equipment": "Bar, plates, bench",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Behind-the-Neck-Barbell-Shoulder-Press_600x600.png?v=1619977737"
+  },
+  {
+    "name": "Standing Barbell Shoulder Press",
+    "description": "Standing with your back straight, chest bulged, feet about shoulders width apart, and knees slightly bent. Grasp the bar using a pronated grip, your elbows pointing outward. The bar stands at chin’s level. This level may vary depending on your shoulders’ flexibility. The gap between your hands should be such that your elbows are forming a 90° angle when your arms are parallel to the floor. Squeeze your shoulders while pressing the weight vertically. Stop the movement when your arms are about to be fully outstretched. Then, come back slowly to the starting position.",
+    "equipment": "Bar, plates",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Barbell-Shoulder-Press_600x600.png?v=1619977694"
+  },
+  {
+    "name": "Standing Behind the Neck Barbell Shoulder Press",
+    "description": "Standing with your back straight, chest bulged, feet about shoulders width apart, and knees slightly bent. Grasp the bar using a pronated grip, your elbows pointing outward. The bar stands behind you at neck’s level. This level may vary depending on your shoulders’ flexibility. The gap between your hands should be such that your elbows are forming a 90° angle when your arms are parallel to the floor. Squeeze your shoulders while pressing the weight vertically. Stop the movement when your arms are about to be fully outstretched. Then, come back slowly to the starting position.",
+    "equipment": "Bar, plates",
+    "muscle_group": "Deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Behind-the-Neck-Barbell-Shoulder-Press_600x600.png?v=1619977648"
+  },
+  {
+    "name": "Alternate Dumbbell Front Raise Neutral Grip",
+    "description": "Standing, arms along the body, elbows slightly bent, one dumbbell in each hand, neutral grip. Slowly lift one arm forward in an arc until it is parallel to the ground. Squeeze your anterior deltoid for a moment, and then slowly go back to the starting position. Do the same with the other arm. Keep your back straight during the exercise.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Anterior deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternate-Dumbbell-Front-Raise-Neutral-Grip_600x600.png?v=1619977407"
+  },
+  {
+    "name": "One-Arm Low-Pulley Front Raise Neutral Grip",
+    "description": "Standing with back turned to the pulley. Holding the end of the rope, hand in neutral grip, arms along your body, elbow slightly bent. Keeping your elbow slightly bent, slowly lift your arm forward in an arc. Once your arm is parallel to the ground, squeeze your anterior deltoid for a moment and then go back to your starting position. Keep your back straight during the exercise.",
+    "equipment": "Lower pulley",
+    "muscle_group": "Anterior deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/One-Arm-Low-Pulley-Front-Raise-Neutral-Grip_600x600.png?v=1619977374"
+  },
+  {
+    "name": "Two-Handed Dumbbell Front Raise",
+    "description": "Standing with feet about shoulder width apart, elbows slightly bent, arms alongside the body, holding the dumbbell with both hands (as illustrated). Slowly lift the arms forward in an arc until they are parallel to the ground. Squeeze your deltoids for a moment, and then slowly go back to your starting position. Keep your back straight during the exercise.",
+    "equipment": "Dumbbell",
+    "muscle_group": "Anterior deltoids",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Two-Handed-Dumbbell-Front-Raise_600x600.png?v=1619977326"
+  },
+  {
+    "name": "Squat",
+    "description": "Standing with the bar resting on your trapezium and shoulders. Grasp the bar with your hands for a good support. Keep your head straight. Bend your knees and hips as if you were sitting down. While keeping your back straight, let your buttocks go backwards, which will tilt your chest slightly forwards to make the movement as natural as possible. The moment your thighs are parallel to the ground, move upwards, doing the movement in the opposite direction. Given the complexity of this movement, ask a trainer in your gym to show you how to perform it correctly the first time.",
+    "equipment": "Barbell",
+    "muscle_group": "Thigh and buttock muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Squat_d752e42d-02ba-4692-b300-c6e67ad5a4f5_600x600.png?v=1612138811"
+  },
+  {
+    "name": "Leg Press",
+    "description": "Sitting on the press bench, feet flat on the platen, shoulder width apart. Release the manual safety catch and slowly lower the load by bringing your knees towards your chest. When your knees are at a 90° angle, pause for a moment and then slowly raise the load. To protect your knees, stop the movement just before your legs are fully extended. During the movement, do not lift your buttocks off the bench.",
+    "equipment": "Leg press machine",
+    "muscle_group": "Thigh and buttock muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Press_f7febd5c-75e5-42f4-9bb4-c938969ce293_600x600.png?v=1612138836"
+  },
+  {
+    "name": "Leg Extension",
+    "description": "Adjust the leg extension so that when you sit down your knees are at the edge of the bench and your ankles are just below the footrest. Sit with your back firmly against the backrest, holding the handles on the sides. Extend your legs until they are fully extended. Hold the load for a moment by contracting your quadriceps, then return to the lowered position.",
+    "equipment": "Leg Extension machine",
+    "muscle_group": "Quadriceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Extension_41d91d3f-4b9c-4374-82e2-1d697ce35fe4_600x600.png?v=1612138862"
+  },
+  {
+    "name": "Lunge",
+    "description": "Standing with legs hip-width apart, one dumbbell in each hand. Keeping the bust straight, take a step forward and slowly descend until the forward thigh is parallel to the ground. Then return to the original position. Once you have completed your series, do the same with the other leg.",
+    "equipment": "Dumbbells",
+    "muscle_group": "Buttocks and thigh muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lunge_600x600.png?v=1612138903"
+  },
+  {
+    "name": "Lying Leg Curl",
+    "description": "Lie on your stomach on the \"leg curl lying down\" machine with the back of your ankles pressed against the footrest. Grasp the handles. Leaning firmly on the bench, bend your legs as far as possible. Hold the load for a moment in the high position by contracting your ischial muscles, then slowly return to the low position.",
+    "equipment": "Leg curl machine",
+    "muscle_group": "Hamstrings",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lying-Leg-Curl_203153d8-79dd-4bb9-9125-708aa4327107_600x600.png?v=1612139013"
+  },
+  {
+    "name": "Hack Squat",
+    "description": "Standing in the \"hack squat\" machine, trapezes under the pads, feet on the footrest, shoulder-width apart. Release the manual safety catch and slowly bend the knees. When your knees are at a 90° angle, pause for a moment and then slowly raise the load. Keep your back firmly against the backrest.",
+    "equipment": "Hack squat machine",
+    "muscle_group": "Thigh and buttock muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Hack-Squat_044b3d09-ffa7-4728-b56f-f4fb3c175548_600x600.png?v=1612139060"
+  },
+  {
+    "name": "Seated Leg Curl",
+    "description": "Adjust the leg curl sitting machine so that when you are sitting, the bottom of your knees are at the edge of the bench and the back of your ankles are just beyond the footrest. Sit with your back firmly against the backrest, holding the handles on the sides. Bend your legs as far as possible. Hold the load for a moment in this position by contracting your ischial muscles, then return to the initial position.",
+    "equipment": "Seated leg curl machine",
+    "muscle_group": "Hamstrings",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Leg-Curl_e367789a-bbb3-4144-a926-5a9b42afc278_600x600.png?v=1612139123"
+  },
+  {
+    "name": "Single Leg Extension",
+    "description": "Adjust the leg extension so that when you sit, your knee is at the edge of the bench and your ankle is just below the footrest. Sit with your back firmly against the backrest, holding the handles on the sides. Extend your leg until it is fully extended. Hold the load for a moment in the high position by contracting your quadriceps, then return to the low position. Once your series is completed, do the same with the other leg.",
+    "equipment": "Leg extension machine",
+    "muscle_group": "Quadriceps",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Leg-Extension_9cf850d1-0b9b-4fb3-8caf-49d438e86db0_600x600.png?v=1612139177"
+  },
+  {
+    "name": "Front Squat",
+    "description": "Standing with the bar resting on your upper chest and deltoids. Grasp the bar with your hands for a good support. Keep your head straight. Bend your knees and hips as if you were sitting down. While keeping your back straight, let your buttocks go backwards, which will tilt your chest slightly forwards to make the movement as natural as possible. The moment your thighs are parallel to the ground, move upwards, doing the movement in the opposite direction. Given the complexity of this movement, ask a trainer in your gym to show you how to perform it correctly the first time.",
+    "equipment": "Barbell",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Front-Squat_600x600.png?v=1612049397"
+  },
+  {
+    "name": "Dumbbell Stiff-Leg Deadlift",
+    "description": "Stand with feet shoulder width apart and toes facing forward. Bend knees slightly and push your chest out. Hold a dumbbell in each hand, resting on your upper thighs. Keeping your legs stiff, bow forward and lower the weights towards the ground. Pause when your hamstrings are tight, and then return to the starting position. Keep your back straight and shoulders back throughout.",
+    "equipment": "Dumbbell",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Romanian-Deadlift_35135213-e0df-4ef2-b093-22ed8d04dc41_600x600.png?v=1621162896"
+  },
+  {
+    "name": "Barbell Stiff-Leg Deadlift",
+    "description": "Stand with feet shoulder width apart and toes facing forward. Bend knees slightly and push your chest out. Grasp a barbell resting on your upper thighs, with hands in pronation shoulder width. Keeping your legs stiff, bow forward and lower the weight towards the ground. Pause when your hamstrings are tight, and then return to the starting position. Keep your back straight and shoulders back throughout.",
+    "equipment": "Barbell",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Romanian-Deadlift_34ede1b4-63ac-451d-9536-bbf9942b560c_600x600.png?v=1621162957"
+  },
+  {
+    "name": "Dumbbell Goblet Squat",
+    "description": "Stand with feet slightly wider than shoulder-width apart, holding a dumbbell between your hands. Have the dumbbell resting at chest height with hands holding the top of the dumbbell and shoulders pointed down. Push your chest out. Take a deep breath and then squat your glutes down, pushing your heels into the ground. Pause when your thighs are at least parallel with the ground, go lower if you can. Pause, and then rise back up again. Keep your back straight throughout.",
+    "equipment": "Dumbbell",
+    "muscle_group": "",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Goblet-Squat_600x600.png?v=1612049778"
+  },
+  {
+    "name": "Knee Tuck Jumps",
+    "description": "Standing Bend your knees slightly to gain momentum, then jump by bringing your knees up and as close to your chest as possible.",
+    "equipment": "Quadriceps",
+    "muscle_group": ",",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Knee-Tuck-Jumps_dbf2e5a8-e907-4117-a044-8cd0abeb191d_600x600.png?v=1653509454"
+  },
+  {
+    "name": "Burpees",
+    "description": "Start in a squat position with your hands on the ground and your head in line with the body. While holding onto your hands, move both legs backwards into a face-up position and perform a push-up. Without stopping, bring your legs back to the initial squatting position, then perform a vertical jump by raising your hands towards the sky.",
+    "equipment": "Chest",
+    "muscle_group": ",",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Burpees_600x600.png?v=1640121232"
+  },
+  {
+    "name": "Bodyweight Squat",
+    "description": "Stand upright with your feet slightly wider than hip-width apart. Hold your arms out in front of you. Keeping your chest up and back straight, brace your core while you push your hips backwards into a sitting position. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot to the starting position. Keep your knees from caving in at any point during the movement.",
+    "equipment": "Thigh and Glute Muscles",
+    "muscle_group": "Core Muscles,",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Squat_600x600.png?v=1653577860"
+  },
+  {
+    "name": "1.5 Rep Bodyweight Squats",
+    "description": "Stand upright with your feet slightly wider than hip-width apart. Keeping your chest up and back straight, brace your core while you push your hips backwards into a sitting position. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot halfway to the starting position. Pause and lower yourself back down to parallel. Pause one more time at the bottom before pushing yourself back up to the starting position. Keep your knees from caving in at any point during the movement.",
+    "equipment": "Thigh and Glute Muscles",
+    "muscle_group": "Core Muscles,",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Squat_600x600.png?v=1653577860"
+  },
+  {
+    "name": "Medicine Ball Squat",
+    "description": "Stand upright with your feet shoulder-width apart. Hold the medicine ball with both hands in front of your chest. Keeping your chest up and back straight, brace your core while you drive your hips back into a sitting position. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot to the starting position. Keep your knees from caving in at any point during the movement.",
+    "equipment": "Medicine Ball",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Medicine-Ball-Squat_600x600.png?v=1655223652"
+  },
+  {
+    "name": "Barbell Bulgarian Split Squat",
+    "description": "Rack the bar on your trapezius muscle and shoulders. Rest one leg on the bench behind you, with your laces down. Place your front foot (your squatting leg) about 3 footsteps in front of the bench. Keep a shoulder-width stance, your back foot should not be directly behind your front. Squat down with your standing leg while bracing your core and keeping your chest tall until your back knee almost touches the floor. Pause and push up through your front foot only and return to the starting position. Do not allow your knee to move in or out during the movement.",
+    "equipment": "Barbell",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Bulgarian-Split-Squat_600x600.png?v=1655223749"
+  },
+  {
+    "name": "Bodyweight Bulgarian Split Squat",
+    "description": "Rest one leg on the bench behind you, with your laces down. Place your front foot (your squatting leg) about 3 footsteps in front of the bench. Keep a shoulder-width stance, your back foot should not be directly behind your front. Place your hands on your hips. Squat down with your standing leg while bracing your core and keeping your chest tall until your back knee almost touches the floor. Pause and push up through your front foot only and return to the starting position. Do not allow your knee to move in or out during the movement.",
+    "equipment": "Bench",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Bulgarian-Split-Squat_600x600.png?v=1655223826"
+  },
+  {
+    "name": "Mini-Band Air Squat",
+    "description": "Place the mini-band around both legs above your knees. Stand with your feet about shoulder-width apart. Keeping your chest up and back straight, brace your core while you drive your hips back into a sitting position. Stretch the band and keep it tight by driving your knees outward throughout the movement. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot to the starting position. Keep your knees from caving in at any point during the movement.",
+    "equipment": "Mini-Band",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Mini-Band-Air-Squat_600x600.png?v=1655223897"
+  },
+  {
+    "name": "Jump Squat",
+    "description": "Stand up straight with your feet in a wide stance, outside of your hips. Keeping your chest tall, drive your hips down and back to just above your knees. Drive up with your arms, swinging them forward, to push yourself explosively off the floor. Land with soft knees and lower back down into the squat position. Keep your knees from caving inwards at any point during the movement.",
+    "equipment": "Thigh and Glute Muscles",
+    "muscle_group": "Core Muscles,",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Jump-Squat_600x600.png?v=1655223952"
+  },
+  {
+    "name": "Wall Sit",
+    "description": "Stand upright with your back flat against the wall with feet about hip-width or slightly wider apart. Lower yourself down into a squatting position by stepping your feet forward, while keeping your back flat against the wall. Stop when your thighs are parallel with the floor. Hold this position and then return to standing once completed.",
+    "equipment": "A Flat Wall",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Wall-Sit_600x600.png?v=1655224007"
+  },
+  {
+    "name": "Medicine Ball Deadlift",
+    "description": "Rack the bar on your trapezius muscle and shoulders. Rest one leg on the bench behind you, with your laces down. Place your front foot (your squatting leg) about 3 footsteps in front of the bench. Keep a shoulder-width stance, your back foot should not be directly behind your front. Squat down with your standing leg while bracing your core and keeping your chest tall until your back knee almost touches the floor. Pause and push up through your front foot only and return to the starting position. Do not allow your knee to move in or out during the movement.",
+    "equipment": "Medicine Ball",
+    "muscle_group": "Hamstrings and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Medicine-Ball-Deadlift_600x600.png?v=1655224056"
+  },
+  {
+    "name": "Single Leg Bodyweight Deadlift",
+    "description": "Stand up straight with arms at your side. Keeping a slight bend at the knee in your planted leg, hinge forward at your hip while allowing the arm opposite to your planted leg to reach down in front of you. Keep your chest tall while raising the opposite leg (keeping it out straight behind you). Hinge forward up to 90-degrees or as far as your body will allow. Keep your head and neck in line with your back throughout the movement. Hinge the hip backwards to the starting position and repeat with the opposite side. Keep your planted leg firm and don’t allow it to twist about.",
+    "equipment": "Hamstrings and Glute Muscles",
+    "muscle_group": "Core Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Leg-Bodyweight-Deadlift_600x600.png?v=1655224115"
+  },
+  {
+    "name": "Kettlebell Sumo Deadlift",
+    "description": "Place the kettlebell on the floor directly between your feet. Take a moderate wide stance with your feet, point your toes slightly outwards. Push your hips back and hinge forward until your torso is about parallel with the floor. Reach down and grasp the kettlebell handle. Close your hands over the handle using a double overhand grip. Drop your hips below shoulder level and keep your arms fully extended from the kettlebell. Push the floor away from you by driving through your whole foot and extending your knees and hips, lifting the bell with you. Lock out your hips and then lower your body and the kettlebell back down by pushing your hips back and hinging forward at the hip. Return the kettlebell to the floor and then reset to repeat.",
+    "equipment": "Kettlebell",
+    "muscle_group": "Hamstrings and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Kettlebell-Sumo-Deadlift_600x600.png?v=1655224172"
+  },
+  {
+    "name": "Good Morning Exercise",
+    "description": "Stand up straight with the bar racked against your trapezius muscle and shoulders with hands placed just outside of your shoulders. Position your feet hip-width apart. Allow your knees to flex slightly while you hinge forward by pushing your hips back behind you. Maintain a neutral spine position. Lower your chest while bracing your core until your chest is parallel with the floor. Extend your hips forward to return to the starting position.",
+    "equipment": "Barbell",
+    "muscle_group": "Hamstrings and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Good-Morning_600x600.png?v=1655224242"
+  },
+  {
+    "name": "Bodyweight Glute Bridge",
+    "description": "Lay flat on your back on the mat. Bend your knees and bring your feet towards you, plant them flat on the ground. Lay your arms out straight at your sides with palms facing down. Driving through your heels, lift your hips off of the ground until your knees, hips, and shoulders create a straight line. Squeeze your glutes and keep your core braced. Pause and then lower your hips back to the starting position.",
+    "equipment": "Mat",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Glute-Bridge_600x600.png?v=1655224288"
+  },
+  {
+    "name": "Single Leg Glute Bridge",
+    "description": "Lay flat on your back on the mat. Bend your knees and bring your feet towards you, plant them flat on the ground. Lay your arms out straight at your sides with palms facing down. Raise one leg and extend it out straight so that both thighs are parallel with each other. Driving through the heel of your planted foot, lift your hips off of the ground until you create a straight line from your shoulders to the foot of your raised leg - align all of the joints. Squeeze your glutes and keep your core braced. Pause and then lower your hips back to the starting position while keeping the raised leg extended. Repeat with the opposite leg.",
+    "equipment": "Mat",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Single-Leg-Glute-Bridge_600x600.png?v=1655224356"
+  },
+  {
+    "name": "Banded Glute Bridge",
+    "description": "Position the mini-band around both legs above your knees. Lay flat on your back on the mat. Bend your knees and bring your feet towards you, plant them flat on the ground. Lay your arms out straight at your sides with palms facing down. Driving through your heels, lift your hips off of the ground until your knees, hips, and shoulders create a straight line. Squeeze your glutes and keep your core braced. Pause and then lower your hips back to the starting position. Keep the mini-band tight and stretched throughout the whole movement.",
+    "equipment": "Mat, Mini-Band",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Banded-Glute-Bridge_600x600.png?v=1656401790"
+  },
+  {
+    "name": "Duck Walk",
+    "description": "Stand with your feet shoulder-width apart. Squat down into a sitting position by pushing your hips back. Sink into a deep squat without lifting your feet from the floor. Keep your chest tall and brace your core. You can hold your arms out in the air to help with balance. While maintaining the same distance from the floor, take one small step forward with one foot. Repeat with the other foot. You can take steps backwards as well.",
+    "equipment": "This exercise is not a strengthening movement, but one that can be utilized for stretching and warming up at the beginning of your workout. These are the main muscles you’ll be stretching:",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Duck-Walk_600x600.png?v=1656401872"
+  },
+  {
+    "name": "Bird Dog",
+    "description": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips. While maintaining a neutral spine and bracing your core, extend one arm straight out in front of you and extend the opposite leg backwards until they’re parallel with the ground and you’ve created a straight line with your body. Keep your hips parallel to the ground. Hold this position briefly and then lower back to the starting position. Repeat with the opposite side.",
+    "equipment": "Mat",
+    "muscle_group": "Core Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bird-Dog_600x600.png?v=1656401941"
+  },
+  {
+    "name": "Groiners",
+    "description": "Get into the push-up position with your hands directly under your shoulders. Keeping your back flat, step one foot all the way up next to your hand or as close as you can get. You can allow the opposite knee to bend slightly while you lean into the stretch. Hold the stretch for the desired length of time and then repeat with the opposite leg.",
+    "equipment": "Mat",
+    "muscle_group": "This exercise is not a strengthening movement, but one that can be utilized for stretching and warming up at the beginning of your workout. These are the main muscles you’ll be stretching:",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Groiners_600x600.png?v=1656402166"
+  },
+  {
+    "name": "Fire Hydrants",
+    "description": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips. Keeping your back flat and core engaged, lift one leg out to the side keeping the knee bent. Pause and return to the starting position. Repeat with the opposite leg.",
+    "equipment": "Mat",
+    "muscle_group": "This exercise is not a strengthening movement, but one that can be utilized for stretching and warming up at the beginning of your workout. These are the main muscles you’ll be stretching:",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Fire-Hydrant_600x600.png?v=1656402231"
+  },
+  {
+    "name": "Smith Machine Hip Thrust",
+    "description": "Position the bench at the entrance of the Smith Machine, parallel with the bar. Place the squat sponge in the center of the bar or place the towel folded on your hips as you lie down. Get under the bar and position your upper back against the bench. Place your feet out in front of you about shoulder-width apart. Point your feet slightly outwards. Make sure the bar is positioned on the crease of your hip. Place your hands on the bar at your sides. Extend your hips to unrack the bar. Keep your core tight and tuck your chin. Allow your hips to lower towards the floor in order to lower the bar. Don’t sink all the way to the floor, reverse the movement by thrusting your hips and the bar up until you’re parallel with the floor again. Squeeze your glutes at the top while maintaining a straight back. Pause and repeat.",
+    "equipment": "Smith-Machine, Bench, Squat Pad or Towel if needed for padding",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Smith-Machine-Hip-Thrust_600x600.png?v=1656402282"
+  },
+  {
+    "name": "Barbell Hip Thrust",
+    "description": "With the barbell close and parallel to the bench, sit down on the floor with your upper back against the bench. Roll the bar over your legs so that the bar now rests over your hip crease. Bring your feet up closer and place them flat on the floor about shoulder-width apart. Driving through your whole foot, raise your hips slightly above the ground while gripping the bar at the sides. Keep your chin tucked throughout the movement. Squeeze your glutes to thrust your hips and the bar up until you’re parallel to the ground in a tabletop position. Pause and lower your hips back towards the ground, keeping the movement controlled. Keep your chest in line with your hips. Stop above the ground and repeat.",
+    "equipment": "Barbell, Bench, Squat Pad or Towel if needed for padding",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Hip-Thrust_600x600.png?v=1656402338"
+  },
+  {
+    "name": "Band Seated Hip Abduction",
+    "description": "Place the mini-band around your legs above your knees. Sit on the edge of the bench with feet shoulder-width apart and back straight. Place your hands on the bench at your sides. Using your glutes, push your knees outward stretching the band. Pause and return to the starting position.",
+    "equipment": "Mini-Band & Bench or Chair",
+    "muscle_group": "Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Band-Seated-Hip-Abduction_600x600.png?v=1656404992"
+  },
+  {
+    "name": "Seated Hip Abduction Machine",
+    "description": "Sit down onto the machine with your knees inside and up against the pads. Pull the pin to release the pads. Grasp the handles at the sides. Push out against the pads with your knees. When your hips are fully abducted, pause and then return to the starting position.",
+    "equipment": "Hip Abduction Machine",
+    "muscle_group": "Hip Abductors",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Hip-Abduction-Machine_600x600.png?v=1656405168"
+  },
+  {
+    "name": "Standing Cable Abduction",
+    "description": "Stand up straight with one shoulder next to the machine. Have the ankle attachment placed on the ankle furthest from the machine. Place the hand closest on the cable machine and the other on your hip. Keeping your leg straight, raise the leg out to your side as high as you can. Pause and return back to the starting position.",
+    "equipment": "Cable Machine with Ankle Attachments",
+    "muscle_group": "Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Cable-Abduction_600x600.png?v=1656405251"
+  },
+  {
+    "name": "Bodyweight Frog Pump",
+    "description": "Lay down on your back. Bring your feet up close to your glutes and bring the soles up together to create a butterfly position with your legs. Lay your arms on the floor at your sides. Keeping your chin tucked and shoulders on the ground, press down into the floor with the edges of your feet while squeezing your glutes to thrust your hips up. When your shoulders, hips, and knees are aligned, pause at the top and then lower your hips back to the starting position.",
+    "equipment": "Mat",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Frog-Pump_600x600.png?v=1656405316"
+  },
+  {
+    "name": "Smith Machine Frog Pump",
+    "description": "Position the bench inside of the Smith Machine, perpendicular to the bar. Place the squat sponge in the center of the bar or place the towel folded on your hips as you lie down on the bench and get under the bar. Position the bar over the crease of your hip. Bring your feet up close to your glutes on the bench and bring the soles up together to create a butterfly position with your legs. Keeping your chin tucked and shoulders against the bench, press down into the bench with the edges of your feet while squeezing your glutes to thrust your hips and push the bar up. Keep your core braced. When your shoulders, hips, and knees are aligned, pause at the top and then lower your hips back to the starting position.",
+    "equipment": "Smith Machine, Bench, Squat Pad or Towel if needed for padding",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Smith-Machine-Frog-Pump_600x600.png?v=1656405486"
+  },
+  {
+    "name": "Banded Clams",
+    "description": "Position the mini-band around your legs just above your knees. Lay down on your side. Keeping your feet in line with your hips, bend your knees to make a 90-degree angle. Rest your head on your arm. Keeping your core engaged and your feet together, raise your top knee up as high as you can without lifting the bottom knee from the floor or twisting your hips. Pause and return to the starting position in a controlled manner. Finish your repetitions and repeat on the opposite side.",
+    "equipment": "Mat, Mini-Band",
+    "muscle_group": "Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Banded-Clams_600x600.png?v=1656405564"
+  },
+  {
+    "name": "Side Lying Leg Raise",
+    "description": "Lay down onto the mat on your side. Use the arm on the floor to cushion your head. Bend the leg on the floor to help balance. Place your top hand on the floor in front of you. Keeping the top leg straight and all joints in a straight line, raise it up towards the ceiling. Pause at the top and lower it back down to the starting position. Finish your repetitions and repeat with the opposite side.",
+    "equipment": "Mat",
+    "muscle_group": "Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Side-Lying-Leg-Raise_600x600.png?v=1656405688"
+  },
+  {
+    "name": "Glute Ham Raise",
+    "description": "Stand over the middle of the machine and position your feet into the ankle pads with your toes against the toe plate while using your hands to brace on the front pads. Allow your knees to fall through a bit below the pads. With the front of your knees pushed into the pads, bring your body up perpendicular to the floor. Keeping your back and hips straight and aligned, bend at the knees to lower yourself down against the pads, keeping your arms against your chest. Lower yourself until you’re parallel with the ground and then return to the starting position.",
+    "equipment": "Glute Ham Developer (GHD) Machine",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Glute-Ham-Raise_600x600.png?v=1656405832"
+  },
+  {
+    "name": "Dumbbell Step Up",
+    "description": "Stand up tall in front of the step with dumbbells in each hand at your sides. Keeping your chest tall and core engaged, step one foot up onto the step and place your whole foot flat on the step. Step the other foot up onto the step. Step back and down off of the step with the second foot you brought up, then step down with the first foot. Repeat with the opposite side.",
+    "equipment": "Step, Dumbbells",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Step-Up_600x600.png?v=1656405942"
+  },
+  {
+    "name": "Lateral Mini-Band Walk",
+    "description": "Place the mini-band around your legs just above your knees. Position your feet about shoulder-width apart and ensure there is no slack in the band. Bend your knees slightly, dropping down into an athletic stance in a half-squat position. Distribute your weight throughout both of your feet. Maintaining the half-squat position, take a step sideways with one foot. Follow with the other foot. Take the desired amount of steps to the one side, and then repeat with the opposite side or alternate between each side until all repetitions are completed.",
+    "equipment": "Mini-Band",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Mini-Band-Lateral-Walks_600x600.png?v=1656406023"
+  },
+  {
+    "name": "Standing Knee Raise",
+    "description": "Stand up straight with feet shoulder-width apart. Place your hands on your hips. With one foot firmly planted on the ground, raise one knee up in front of you until your thigh is parallel with the ground without allowing your hips to twist. Pause and return back to the starting position. Repeat with the opposite leg while remaining in the same spot throughout the duration of all repetitions.",
+    "equipment": "Thigh and Glute Muscles",
+    "muscle_group": "Core Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Knee-Raise_600x600.png?v=1656406133"
+  },
+  {
+    "name": "Kettlebell Swings",
+    "description": "Grip the kettlebell with a double overhand grip. Stand up tall with your arms extended and loose. Engage your core. Soften your knees to lower your glutes back and down, while shifting your weight into your heels. Drive through your heels to explosively drive your hips forward in order to swing the bell upward. Swing the kettlebell up to about chest height with your arms extended. Let the bell fall back down to get ready for the next swing. Brace your body to catch the weight in the bottom position allowing it to swing through your legs and then repeat the swinging motion forward.",
+    "equipment": "Kettlebell",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Kettlebell-Swing_600x600.png?v=1656782014"
+  },
+  {
+    "name": "Standing Cable Kickback",
+    "description": "Stand up tall in front of the step with dumbbells in each hand at your sides. Keeping your chest tall and core engaged, step one foot up onto the step and place your whole foot flat on the step. Step the other foot up onto the step. Step back and down off of the step with the second foot you brought up, then step down with the first foot. Repeat with the opposite side.",
+    "equipment": "Cable Machine, Ankle Attachments",
+    "muscle_group": "Thigh and Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Cable-Kickback_600x600.png?v=1656782126"
+  },
+  {
+    "name": "Donkey Kicks",
+    "description": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips. Position your head to look at the floor. Engage your core and keep your back flat in a tabletop position. Keeping the 90-degree bend in your knee, lift your leg back and up so that your foot goes towards the ceiling. Try to bring your thigh to parallel with the floor without twisting your hips or rounding your back, stop sooner if this occurs. Return the leg to the starting position.",
+    "equipment": "Mat",
+    "muscle_group": "Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Donkey-Kicks_600x600.png?v=1656782198"
+  },
+  {
+    "name": "Side Lying Hip Raise",
+    "description": "Lay down on your side with your legs stacked. Prop yourself up by placing your elbow and forearm flat onto the ground, with your arm pointed away from you. Stack your elbow under your shoulder. Bend your knees to a 90-degree angle so that your feet are behind you, keeping them stacked. Keeping your feet together and core engaged, raise your hips straight up from the ground. Keep your body in line throughout the movement. In the same motion, contract your glutes to lift your top knee towards the ceiling, keeping your bottom knee on the floor. Pause and lower yourself back down to the starting position.",
+    "equipment": "Mat",
+    "muscle_group": "Glute Muscles",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Side-Lying-Hip-Raise_600x600.png?v=1656782257"
+  },
+  {
+    "name": "Squat Sit to Reach",
+    "description": "Stand up straight with feet about shoulder-width apart. Lower yourself down just like a squat by driving your hips backwards. Lower yourself all the way down into a deep, sitting squat position. While sitting in the bottom position, take one arm and seat the elbow into the same side knee. Place that hand on the ground outside of the foot. With your opposite arm, reach up and back towards the sky twisting your upper body. Bring your arm back down and repeat with the opposite side. When finished, push up through your feet to return back to standing position. Avoid letting your knees cave in.",
+    "equipment": "This exercise is not a strengthening movement, but one that can be utilized for stretching and warming up at the beginning of your workout. These are the main muscles you’ll be stretching: Hip,",
+    "muscle_group": "Thigh",
+    "img_url": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Squat-Sit-to-Reach_600x600.png?v=1656783666"
+  }
+]
