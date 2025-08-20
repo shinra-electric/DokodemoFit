@@ -1,2 +1,12 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container-fluid m-auto3 d-flex flex-column justify-content-center align-items-center" style="background-image: url('https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg');
+background-size: cover;
+background-position: center;
+height: 90vh;">
+<h1 class="text-center mb-4 text-white">Routine.Ai</h1>
+<h2 class="text-center mb-5 text-white">Create a fitness routine anywhere, anytime.</h2>
+
+    <div class="d-flex gap-3">
+        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-warning btn-lg" %>
+        <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-light btn-lg" %>
+    </div>
+</div>
