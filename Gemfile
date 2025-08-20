@@ -75,3 +75,4 @@ end
 
 gem "ruby_llm"
 gem "devise"
+gem "nokogiri"
