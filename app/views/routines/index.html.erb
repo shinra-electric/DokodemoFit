@@ -1,7 +1,33 @@
 <div class="container d-flex flex-column align-items-center justify-content-center" data-controller="routine-creator">
     <h1>Your Routines</h1>
-    <button class="btn btn-primary" data-action="click->routine-creator#displayForm">create new routine</button>
+
         <% @routines.each do |routine| %>
             <%= link_to routine.title, routine_path(routine) %>
         <% end %>
+
+
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">create new routine</button>
+
+    <div class="modal fade" id="modalform" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <%= simple_form_for @routine do |f| %>
+                    <%= f.input :title %>
+                    <%= f.input :goal %>
+                    <%= f.input :equipment %>
+                    <%= f.input :comments %>        
+                </div>
+                <div class="modal-footer">
+                    <%= f.button :submit, class:"btn btn-secondary" %>
+                    <% end %>    
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
