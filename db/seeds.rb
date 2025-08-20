@@ -40,7 +40,6 @@ exercise_urls.each do |exercise_url|
 
   p_items = exercise_doc.search("p").children.map { |p| p.text.strip }
 
-
   span_items = exercise_doc.search(".exo-info div span").children.map { |item| item.text.strip }
 
   img_src = exercise_doc.search("#PageContainer header .container img")
@@ -50,7 +49,7 @@ exercise_urls.each do |exercise_url|
   execution = p_items[2]
   description = "#{starting_position} #{execution}"
 #   equipment_used = span_items[0]
-  main_muscle_group = span_items[1]  
+  main_muscle_group = span_items[1]
   img = img_src[0]["src"]
 
   new_exercise = Exercise.new(name: name, description: description, muscle_group: main_muscle_group, img_url: img)
@@ -76,6 +75,3 @@ join1 = RoutineExercise.new
 join1.exercise = Exercise.first
 join1.routine = routine1
 join1.save!
-
-
-
