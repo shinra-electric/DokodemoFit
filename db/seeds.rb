@@ -40,7 +40,6 @@ exercise_urls.each do |exercise_url|
 
   p_items = exercise_doc.search("p").children.map { |p| p.text.strip }
 
-
   span_items = exercise_doc.search(".exo-info div span").children.map { |item| item.text.strip }
 
   img_src = exercise_doc.search("#PageContainer header .container img")
@@ -65,7 +64,7 @@ routine1.user = user1
 routine1.save!
 
 puts "Creating a routine"
-routine2 = Routine.new(title: "My Upper-Body Routine", goal: "Stronger upper-body strength")
+routine2 = Routine.new(title: "My Arm Routine", goal: "Arm strength")
 routine2.user = user1
 routine2.save!
 
