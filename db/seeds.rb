@@ -1,4 +1,6 @@
-# require 'open-uri'
+require "open-uri"
+require "nokogiri"
+
 puts "Cleaning the DB...."
 Message.destroy_all
 RoutineExercise.destroy_all
@@ -16,14 +18,45 @@ user2.save!
 user3.save!
 puts "Created #{User.count} users"
 
-puts "Creating a few exercises.... \n"
-exercise1 = Exercise.new(name: "push-up", description: "Get down on your knees...")
-exercise2 = Exercise.new(name: "pull-up", description: "Grab it and pull")
-exercise3 = Exercise.new(name: "Touch your Toes", description: "Drop the soap")
+puts "Getting scraping data"
+url = "https://www.simplyfitness.com/pages/workout-exercise-guides"
 
-exercise1.save!
-exercise2.save!
-exercise3.save!
+html_file = URI.parse(url).read
+html_doc = Nokogiri::HTML.parse(html_file)
+
+ul_lists = html_doc.search(".exo-ol")
+exercise_paths = ul_lists.map do |list|
+  list.children.children.map { |li| li.attribute_nodes.first.value }
+end
+
+exercise_urls = exercise_paths.flatten.map do |exercise_path|
+  "https://www.simplyfitness.com#{exercise_path}"
+end
+
+exercise_urls.each do |exercise_url|
+    puts "Creating an exercise..."
+  exercise_file = URI.parse(exercise_url).read
+  exercise_doc = Nokogiri::HTML.parse(exercise_file)
+
+  p_items = exercise_doc.search("p").children.map { |p| p.text.strip }
+
+
+  span_items = exercise_doc.search(".exo-info div span").children.map { |item| item.text.strip }
+
+  img_src = exercise_doc.search("#PageContainer header .container img")
+
+  name = exercise_doc.search("h1").text.strip
+  starting_position = p_items[1]
+  execution = p_items[2]
+  description = "#{starting_position} #{execution}"
+#   equipment_used = span_items[0]
+  main_muscle_group = span_items[1]  
+  img = img_src[0]["src"]
+
+  new_exercise = Exercise.new(name: name, description: description, muscle_group: main_muscle_group, img_url: img)
+  new_exercise.save!
+end
+
 puts "Created #{Exercise.count} exercises"
 
 puts "Creating a routine"
@@ -40,6 +73,9 @@ message1.save!
 message2.save!
 
 join1 = RoutineExercise.new
-join1.exercise = exercise1
+join1.exercise = Exercise.first
 join1.routine = routine1
 join1.save!
+
+
+
