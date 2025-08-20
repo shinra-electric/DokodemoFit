@@ -87,12 +87,12 @@ join1.exercise = Exercise.first
 join1.routine = routine1
 join1.save!
 
-# join2 = RoutineExercise.new
-# join2.exercise = Exercise.first
-# join2.routine = routine2
-# join2.save!
+join2 = RoutineExercise.new
+join2.exercise = Exercise.first
+join2.routine = routine2
+join2.save!
 
-# join3 = RoutineExercise.new
-# join3.exercise = Exercise.first
-# join3.routine = routine3
-# join3.save!
+join3 = RoutineExercise.new
+join3.exercise = Exercise.first
+join3.routine = routine3
+join3.save!
