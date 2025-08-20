@@ -17,12 +17,12 @@ class RoutinesController < ApplicationController
     end
 
     def show
-        redirect_to root_path unless routine.user = current_user
+        redirect_to root_path unless @routine.user = current_user
         @routine = Routine.find(params[:id])
     end
 
     def edit
-        redirect_to root_path unless routine.user = current_user
+        redirect_to root_path unless @routine.user = current_user
         @routine = Routine.find(params[:id])
     end
 
@@ -36,7 +36,7 @@ class RoutinesController < ApplicationController
     end
 
     def destroy
-        redirect_to root_path unless routine.user = current_user
+        redirect_to root_path unless @routine.user = current_user
         @routine = Routine.find(params[:id])
         @routine.destroy
         redirect_to routines_path
