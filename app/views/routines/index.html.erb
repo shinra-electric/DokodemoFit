@@ -19,23 +19,26 @@
   </div>
 <% end %>
 
-<% @routines.each do |routine| %>
-<div class="container mt-4 mb-5">
+<!-- Routine Cards -->
+<div class="container mb-5">
   <div class="row">
-  <div class="col-12 col-sm-6 col-md-4">
-    <div class="card-trip">
-      <%= image_tag 'routine_cardio.png', alt: "Cardio home gym equipment." %>
-      <div class="card-trip-infos">
-        <div>
-          <h2><%= routine.title %></h2>
-          <p><%= routine.goal %></p>
+    <% @routines.each do |routine| %>
+    <div class="col-12 col-sm-6 col-md-4">
+    <%= link_to routine_path(routine) do %>
+      <div class="card-trip mt-4">
+        <%= image_tag 'routine_cardio.png', alt: "Cardio home gym equipment." %>
+        <div class="card-trip-infos">
+          <div>
+            <h2><%= routine.title %></h2>
+            <p><%= routine.goal %></p>
+          </div>
         </div>
       </div>
+      <% end %>
     </div>
-    </div>`
+  <% end %>
   </div>
 </div>
-<% end %>
 
 
 </div>

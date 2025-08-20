@@ -64,7 +64,7 @@ routine1.user = user1
 routine1.save!
 
 puts "Creating a routine"
-routine2 = Routine.new(title: "My Upper-Body Routine", goal: "Stronger upper-body strength")
+routine2 = Routine.new(title: "My Arm Routine", goal: "Arm strength")
 routine2.user = user1
 routine2.save!
 
