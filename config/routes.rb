@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   get "up" => "rails/health#show", as: :rails_health_check
 
-  resources :routines, only: [:index, :show, :create, :new, :edit, :update, :destroy]
+  resources :routines, only: [:index, :show, :create, :update, :destroy]
 end
