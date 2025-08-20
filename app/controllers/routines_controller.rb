@@ -1,16 +1,17 @@
 class RoutinesController < ApplicationController
 
     def index
-    @routines = current_user.routines.all
+    @routines = current_user.routines
 end
 
     def new
-        @routine = current_user.routines.new
+        @routine = Routine.new
     end
 
     def create
         raise
-        @routine = current_user.routines.new(routine_params)
+        @routine = Routine.new(routine_params)
+        @routine.user = current_user
         if @routine.save
             redirect_to routine_path(@routine)
         else
@@ -19,15 +20,17 @@ end
     end
 
     def show
-        @routine = current_user.routines.find(params[:id])
+        redirect_to root_path unless routine.user = current_user
+        @routine = Routine.find(params[:id])
     end
 
     def edit
-        @routine = current_user.routines.find(params[:id])
+        redirect_to root_path unless routine.user = current_user
+        @routine = Routine.find(params[:id])
     end
 
     def update
-        @routine = current_user.routines.find(params[:id])
+        @routine = Routine.find(params[:id])
         if @routine.update(routine_params)
             redirect_to routine_path(@routine)
         else
@@ -36,7 +39,8 @@ end
     end
 
     def destroy
-        @routine = current_user.routines.find(params[:id])
+        redirect_to root_path unless routine.user = current_user
+        @routine = Routine.find(params[:id])
         @routine.destroy
         redirect_to routines_path
     end
@@ -45,5 +49,5 @@ end
 private
 
 def routine_params 
-    params.require(:routines).permit(:title,:goal, :equipment, :comments)
+    params.require(:routines).permit(:title, :goal, :equipment, :comments)
 end

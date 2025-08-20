@@ -1,0 +1,9 @@
+<div class="container d-flex flex-column align-items-center justify-content-center">
+    <h1>Your Routines</h1>
+    <%= link_to "Create a new routine", new_routine_path, class: "btn btn-primary" %>
+    <div class="d-flex flex-column align-items-center justify-content-center">
+        <% @routines.each do |routine| %>
+            <%= link_to routine.title, routine_path(routine) %>
+        <% end %>
+    </div>
+</div>
