@@ -1,7 +1,49 @@
+<div class="container">
+  <!-- Page Banner -->
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(<%= asset_path("easy_gym.png") %>);">
+  <div class="container">
+    <h1><%= @routine.title %></h1>
+    <p>Goal: <%= @routine.goal %></p>
+
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
+    <div class="modal fade" id="modalform" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <%= simple_form_for @routine do |f| %>
+                    <%= f.input :title %>
+                    <%= f.input :goal %>
+                    <%= f.input :equipment %>
+                    <%= f.input :comments %>
+                </div>
+                <div class="modal-footer">
+                    <%= f.button :submit, class:"btn btn-secondary" %>
+                    <% end %>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
 <%= @routine.title %>
 <%= @routine.goal %>
 <%= @routine.equipment %>
 <%= @routine.comments %>
 
-<%= link_to "Edit", edit_routine_path(@routine), class: "btn btn-warning" %>
-<%= link_to "Create a new routine", new_routine_path, class: "btn btn-warning" %>
+<!-- need to fix the code below -->
+<!-- <%#= link_to "Edit", edit_routine_path(@routine), class: "btn btn-warning" %> -->
+<!-- <%#= link_to "Create a new routine", new_routine_path, class: "btn btn-warning" %> -->
