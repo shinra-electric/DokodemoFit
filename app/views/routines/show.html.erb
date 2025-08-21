@@ -4,46 +4,40 @@
     <div class="container">
       <h1><%= @routine.title %></h1>
       <p>Goal: <%= @routine.goal %></p>
-
       <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
       <div class="modal fade" id="modalform" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <%= simple_form_for @routine do |f| %>
+                <%= f.input :title %>
+                <%= f.input :goal %>
+                <%= f.input :equipment %>
+                <%= f.input :comments %>
               </div>
-              <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :title %>
-                      <%= f.input :goal %>
-                      <%= f.input :equipment %>
-                      <%= f.input :comments %>
-                  </div>
-                  <div class="modal-footer">
-                      <%= f.button :submit, class:"btn btn-secondary" %>
-                      <% end %>
-                  </div>
-              </div>
+              <div class="modal-footer">
+                <%= f.button :submit, class:"btn btn-secondary" %>
+              <% end %>
+            </div>
           </div>
+        </div>
       </div>
     </div>
   </div>
-
-
   <div class="mt-4 mb-4">
     <h3>Summary</h3>
     <p>Exercises targeting all the body groups with a mix of resistance and HIIT training.</p>
   </div>
-
   <div>
-  <h4>Available Equipment</h4>
-  <p><%= @routine.equipment.present? ? @routine.equipment : "None"%></p>
+    <h4>Available Equipment</h4>
+    <p><%= @routine.equipment.present? ? @routine.equipment : "None"%></p>
   </div>
-
   <div class="mt-4 mb-4">
     <h4 class="mt-2 mb-3">Workout Routine</h4>
-
     <div class="accordion mb-4" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -58,7 +52,6 @@
         </div>
       </div>
     </div>
-
     <table class="table table-bordered table-striped">
       <thead class="thead-dark">
         <tr>
@@ -146,39 +139,37 @@
         </div>
       </div>
     </div>
-
     <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modaladdcomment">Add Comment</button>
     <div class="modal fade" id="modaladdcomment" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Add Comment</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :comments, class: "mb-1" %>
-                  </div>
-                  <div class="modal-footer">
-                      <%= f.button :submit, class: "btn btn-secondary" %>
-                      <% end %>
-                  </div>
-              </div>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Add Comment</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <div class="modal-body">
+            <%= simple_form_for @routine do |f| %>
+              <%= f.input :comments, class: "mb-1" %>
+            </div>
+            <div class="modal-footer">
+              <%= f.button :submit, class: "btn btn-secondary" %>
+            <% end %>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
 <!-- need to fix the code below -->
 <!-- <%#= link_to "Edit", edit_routine_path(@routine), class: "btn btn-warning" %> -->
 <!-- <%#= link_to "Create a new routine", new_routine_path, class: "btn btn-warning" %> -->
+<% @routine.messages.each do |message| %>
+<p><%= message.content %> (<%= message.role%>)</p>
+
+<% end %>
+  <div>
+  <%= simple_form_for [@routine, Message.new] do |f| %>
+    <%= f.input :content %>
+    <%= f.submit 'Send' %>
+  <% end %>
+  </div>
+</div>
