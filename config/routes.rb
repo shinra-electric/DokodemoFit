@@ -8,5 +8,4 @@ Rails.application.routes.draw do
   resources :routines, only: [:index, :show, :create, :update, :destroy] do
     resources :messages, only: [:create]
   end
-
 end
