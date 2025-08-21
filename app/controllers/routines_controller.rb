@@ -10,6 +10,14 @@ class RoutinesController < ApplicationController
         @routine.user = current_user
         @routine.save!
         if @routine.save
+            @message = Message.new()
+            @message.role = 'user'
+            @message.routine = @routine
+            if @message.valid?
+              # TODO: Have the AI to answer this message
+              AiMessageService.new(@message).call
+            end
+
             redirect_to routine_path(@routine)
         else
             render :new
