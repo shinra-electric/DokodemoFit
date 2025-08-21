@@ -2,6 +2,7 @@ class Message < ApplicationRecord
   belongs_to :routine
   acts_as_message
   validates :role, presence: true
+  
   def chat
     self.routine
   end
@@ -223,7 +224,6 @@ class Message < ApplicationRecord
             <th>[Reps]</th>
           </tr>
         </table>
-
     PROMPT
   end
 
