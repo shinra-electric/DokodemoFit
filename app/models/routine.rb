@@ -6,4 +6,8 @@ class Routine < ApplicationRecord
   has_many :routine_exercises, dependent: :destroy
   validates :title, presence: true
   validates :goal, presence: true
+  after_initialize :set_chat
+  def set_chat
+    @chat = RubyLLM.chat
+  end
 end
