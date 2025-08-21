@@ -16,7 +16,6 @@ class RoutinesController < ApplicationController
             if @message.valid?
               # TODO: Have the AI to answer this message
               AiMessageService.new(@message).call
-              raise
             end
 
             redirect_to routine_path(@routine)
