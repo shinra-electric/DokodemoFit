@@ -18,6 +18,7 @@
                 <%= simple_form_for @routine do |f| %>
                     <%= f.input :title %>
                     <%= f.input :goal %>
+                    <%#= f.input :experience, as: :radio_buttons, collection: [['Beginner', 'beginner'], ['Intermediate', 'intermediate'], ['Advanced', 'advanced']], item_wrapper_class: 'form-check', item_label_class: 'form-check-label' %>
                     <%= f.input :equipment %>
                     <%= f.input :comments %>        
                 </div>
