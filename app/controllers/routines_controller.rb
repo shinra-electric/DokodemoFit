@@ -17,13 +17,13 @@ class RoutinesController < ApplicationController
     end
 
     def show
-        @routine = Routine.find(params[:id])
-        redirect_to root_path unless @routine.user = current_user
+      @routine = Routine.find(params[:id])
+      redirect_to root_path unless @routine.user = current_user
     end
 
     def edit
       @routine = Routine.find(params[:id])
-      redirect_to root_path unless routine.user = current_user
+      redirect_to root_path unless @routine.user = current_user
     end
 
     def update
