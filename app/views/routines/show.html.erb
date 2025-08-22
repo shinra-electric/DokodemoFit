@@ -1,7 +1,13 @@
 <div class="container">
   <!-- Page Banner -->
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<%= asset_path("squat_pose.png") %>);">
-    <div class="container">
+
+    <%= link_to routines_path, class: "btn btn-outline-secondary position-btn" do %>
+    <i class="fa-regular fa-circle-left text-white"></i> <span class="text-white">Routines</span>
+    <% end %>
+
+
+    <div class="container position-banner">
       <h1><%= @routine.title %></h1>
       <p>Goal: <%= @routine.goal %></p>
       <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
@@ -28,7 +34,7 @@
       </div>
     </div>
   </div>
-  
+
 <%= @routine.messages.last.content.html_safe %>
 
 </div>
