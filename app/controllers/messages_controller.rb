@@ -1,5 +1,4 @@
-class MessagesController < ApplicationController
-    
+class MessagesController < ApplicationController  
   def create
     @routine = Routine.find(params[:routine_id])
     @message = Message.new(message_params)

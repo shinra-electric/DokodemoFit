@@ -2,6 +2,7 @@ class Message < ApplicationRecord
   belongs_to :routine
   acts_as_message
   validates :role, presence: true
+  
   def chat
     self.routine
   end
@@ -158,6 +159,7 @@ PROMPT
   def update_prompt
     <<~PROMPT
       You are a personal trainer and fitness coach with deep knowledge of exercise science, biomechanics, and program design.
+      
       We already created an HTML workout plan, please find it here: #{routine.messages.where(role: 'assistant').last&.content}
       
       The user has the following comments on the page content, please find them here: #{routine.messages.where(role: 'user').last&.content}
