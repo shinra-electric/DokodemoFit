@@ -29,8 +29,8 @@
   </div>
   <div>
     <%= @routine.messages.where(role: 'assistant').order(:created_at).last&.content.html_safe %>
-    <div class="align-vertical-center">
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
+    <div class="align-vertical-center d-flex justify-content-center">
+      <button class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
     </div>
   </div>
   <div class="modal fade" id="modalcomment" tabindex="-1">

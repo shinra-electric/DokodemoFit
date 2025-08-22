@@ -12,9 +12,15 @@
                 <li><a href="#" class="nav-link px-2 text-white">Features</a></li> 
                 <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
                 <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li> <li><a href="#" class="nav-link px-2 text-white">About</a></li> 
-            </ul>  
-            <button type="button" class="btn btn-outline-light me-2">Login</button> 
-            <button type="button" class="btn btn-warning">Sign-up</button> 
+            </ul>
+            <% if user_signed_in? %>
+                <%= link_to "Logout", destroy_user_session_path, data: { turbo_method: :delete }, class: "btn btn-warning btn-lg" %> 
+            <% else %>
+                <div class="d-flex gap-3">
+                    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-warning btn-lg" %>
+                    <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-light btn-lg" %>
+                </div>
+            <% end %>
         </div> 
     </div> 
 </header>
