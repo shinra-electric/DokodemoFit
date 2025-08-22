@@ -177,25 +177,6 @@ class Message < ApplicationRecord
       </div>
     </div>
 
-    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modaladdcomment">Add Comment</button>
-    <div class="modal fade" id="modaladdcomment" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Add Comment</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :comments, class: "mb-1" %>
-                  </div>
-                  <div class="modal-footer">
-                      <%= f.button :submit, class: "btn btn-secondary" %>
-                      <% end %>
-                  </div>
-              </div>
-          </div>
-      </div>
   </div>
 </div>"
 
@@ -204,26 +185,9 @@ class Message < ApplicationRecord
 
   def update_prompt
     <<~PROMPT
-      You are a personal trainer and fitness coach with deep knowledge of exercise science, biomechanics, and program design.
-      You are helping a user create a new workout routine based on their needs. 
-      You are giving them a complete workout plan, with specific exercises and sets and a frequency adapted to their level.
-      Generate a workout plan for the user, with specific exercises and sets.
-      The workout plan should be in the following format:
-      <h2>[Workout Plan Title]</h2>
-      <p>[summary of the workout plan]</p>
-      <h3>The user's goal is to #{routine.goal}</h3>
-      <h3>The user has the following equipment available: #{routine.equipment}.</h3>
-      <h3>The user has the following comments: #{routine.comments}.</h3>
-      <h3>The workout plan should be in the following format:</h3>
-        <table>
-          <tr>
-            <th>[Day of the week]</th>
-            <th>[Exercise Name]</th>
-            <th>[Sets]</th>
-            <th>[Reps]</th>
-          </tr>
-        </table>
-
+     We already created an HTML, please find it here : #{routine.messages.last.content where role = assistant}</h3>
+     The user has the following comments on the page content, please find them here #{routine.message.last.content where role = user}.</h3>
+     Please Update the page according to the User's comment while keeping the same structure of content. 
     PROMPT
   end
 
