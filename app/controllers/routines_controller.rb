@@ -1,6 +1,7 @@
 class RoutinesController < ApplicationController
 
     def index
+    @image = ["skipping.png", "big_curl2.png", "dumbell_pose.png", "bicep_curl.png"]
     @routines = current_user.routines
     @routine = Routine.new
     end
@@ -25,7 +26,7 @@ class RoutinesController < ApplicationController
     end
 
     def show
-      @image = ["running.gif", "squat.gif", "skipping.png", "big_curl.gif","big_curling.gif", "big_curl2.png", "dumbell_pose.png"]
+      @image = ["running.gif", "squat.gif", "big_curl.gif","big_curling.gif"]
       @routine = Routine.find(params[:id])
       redirect_to root_path unless @routine.user = current_user
     end
