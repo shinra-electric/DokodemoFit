@@ -6,8 +6,8 @@
     <% end %>
     <div class="container position-banner">
       <h1 class="mb-3">Your routine</h1>
-      <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
-      <div class="modal fade" id="modalcomment" tabindex="-1">
+      <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalcomment1">Revise</button>
+      <div class="modal fade" id="modalcomment1" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -15,9 +15,11 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <%= simple_form_for [@routine, @message] do |f| %>
+              <%= simple_form_for [@routine, @message], html: { data: {controller: "loading"} } do |f| %>
                 <%= f.input :content, label: "What would you like to change?" %>
-                <%= f.button :submit, "Update Plan", class:"btn btn-warning" %>
+                <%= f.button :submit, class:"btn btn-warning", data: { action: "click->loading#start", loading_target: "button"} do %>
+                Update Plan
+                <% end %>
               <% end %>
             </div>
           </div>
@@ -39,9 +41,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <%= simple_form_for [@routine, @message] do |f| %>
+          <%= simple_form_for [@routine, @message], html: { data: {controller: "loading"} } do |f| %>
             <%= f.input :content, label: "What would you like to change?" %>
-            <%= f.button :submit, "Update Plan", class:"btn btn-warning" %>
+            <%= f.button :submit, class:"btn btn-warning", data: { action: "click->loading#start", loading_target: "button"} do %>
+            Update Plan
+            <% end %>
           <% end %>
         </div>
       </div>

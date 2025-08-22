@@ -15,13 +15,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <%= simple_form_for @routine do |f| %>
+                <%= simple_form_for @routine, html: { data: {controller: "loading"} } do |f| %>
                     <%= f.input :title %>
                     <%= f.input :goal %>
                     <%#= f.input :experience, as: :radio_buttons, collection: [['Beginner', 'beginner'], ['Intermediate', 'intermediate'], ['Advanced', 'advanced']], item_wrapper_class: 'form-check', item_label_class: 'form-check-label' %>
                     <%= f.input :equipment %>
                     <%= f.input :comments %>
-                    <%= f.button :submit, class:"btn btn-warning" %>
+                    <%= f.button :submit, class:"btn btn-warning", data: { action: "click->loading#start", loading_target: "button"} %>
                     <% end %>
                 </div>
             </div>
