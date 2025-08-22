@@ -73,5 +73,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "ruby_llm"
+gem "ruby_llm", git: 'https://github.com/SuzukiRyuichiro/ruby_llm.git'
 gem "devise"
