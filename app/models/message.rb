@@ -19,15 +19,7 @@ class Message < ApplicationRecord
       <h4>The user's goal is to #{routine.goal}</h3>
       <h4>The user has the following equipment available: #{routine.equipment}.</h3>
       <h4>The user has the following comments: #{routine.comments}.</h3>
-      <h4>The workout plan should be in the following format:</h3>
-        <table>
-          <tr>
-            <th>[Day of the week]</th>
-            <th>[Exercise Name]</th>
-            <th>[Sets]</th>
-            <th>[Reps]</th>
-          </tr>
-        </table>
+      
         generate an HTML only with some BS 5.3 styling based on what's written here. No intro, nothing else. 
         generate an HTML only based on what's written here. No intro, nothing else. 
       I want it to look like this : 
