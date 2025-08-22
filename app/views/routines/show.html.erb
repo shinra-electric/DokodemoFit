@@ -7,6 +7,28 @@
 
 
 
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
+      <div class="modal fade" id="modalform" tabindex="-1">
+          <div class="modal-dialog">
+              <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Revise your routine</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <%= simple_form_for @routine do |f| %>
+                      <%= f.input :comments, label: "What would you like to change?" %>
+                  </div>
+                  <div class="modal-footer">
+                      <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
+                      <% end %>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
 <!-- need to fix the code below -->
 <!-- <%#= link_to "Edit", edit_routine_path(@routine), class: "btn btn-warning" %> -->
 <!-- <%#= link_to "Create a new routine", new_routine_path, class: "btn btn-warning" %> -->

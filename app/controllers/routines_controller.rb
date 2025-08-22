@@ -15,7 +15,7 @@ class RoutinesController < ApplicationController
             @message.routine = @routine
             if @message.valid?
               # TODO: Have the AI to answer this message
-              AiMessageService.new(@message).call
+              AiInitialPromptService.new(@message).call
             end
 
             redirect_to routine_path(@routine)
@@ -37,6 +37,10 @@ class RoutinesController < ApplicationController
     def update
         @routine = Routine.find(params[:id])
         if @routine.update(routine_params)
+            @message = Message.new({content: ""})
+            @message.role = 'user'
+            @message.routine = @routine
+            UpdatePromptService.new(@message).call
             redirect_to routine_path(@routine)
         else
             render :edit

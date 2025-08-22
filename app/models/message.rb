@@ -35,32 +35,6 @@ class Message < ApplicationRecord
       <h1><%= @routine.title %></h1>
       <p>Goal: <%= @routine.goal %></p>
 
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
-      <div class="modal fade" id="modalform" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :title %>
-                      <%= f.input :goal %>
-                      <%= f.input :equipment %>
-                      <%= f.input :comments %>
-                  </div>
-                  <div class="modal-footer">
-                      <%= f.button :submit, class:"btn btn-secondary" %>
-                      <% end %>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
-
-
   <div class="mt-4 mb-4">
     <h3>Summary</h3>
     <p>Exercises targeting all the body groups with a mix of resistance and HIIT training.</p>
@@ -176,18 +150,21 @@ class Message < ApplicationRecord
         </div>
       </div>
     </div>
-
   </div>
 </div>"
-
-    PROMPT
+PROMPT
   end
 
   def update_prompt
     <<~PROMPT
-     We already created an HTML, please find it here : #{routine.messages.last.content where role = assistant}</h3>
-     The user has the following comments on the page content, please find them here #{routine.message.last.content where role = user}.</h3>
-     Please Update the page according to the User's comment while keeping the same structure of content. 
+      You are a personal trainer and fitness coach with deep knowledge of exercise science, biomechanics, and program design.
+      We already created an HTML workout plan, please find it here: #{routine.messages.where(role: 'assistant').last&.content}
+      
+      The user has the following comments on the page content, please find them here: #{routine.messages.where(role: 'user').last&.content}
+      
+      Please update the workout plan according to the user's comments while keeping the same structure and HTML format.
+      Generate an updated HTML workout plan with the same styling and layout, incorporating the user's feedback.
+      Return only the HTML content, no additional text or explanations.
     PROMPT
   end
 
