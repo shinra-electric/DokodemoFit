@@ -35,10 +35,10 @@
     </div>
   </div>
 
-<%= @routine.messages.last.content.html_safe %>
+<%= @routine.messages.where(role: 'assistant').order(:created_at).last&.content.html_safe %>
 
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
-      <div class="modal fade" id="modalform" tabindex="-1">
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
+      <div class="modal fade" id="modalcomment" tabindex="-1">
           <div class="modal-dialog">
               <div class="modal-content">
               <div class="modal-header">
@@ -46,10 +46,8 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :comments, label: "What would you like to change?" %>
-                  </div>
-                  <div class="modal-footer">
+                  <%= simple_form_for [@routine, @message] do |f| %>
+                      <%= f.input :content, label: "What would you like to change?" %>
                       <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
                       <% end %>
                   </div>

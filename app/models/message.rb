@@ -152,9 +152,9 @@ PROMPT
     <<~PROMPT
       You are a personal trainer and fitness coach with deep knowledge of exercise science, biomechanics, and program design.
       
-      We already created an HTML workout plan, please find it here: #{routine.messages.where(role: 'assistant').last&.content}
+      We already created an HTML workout plan, please find it here: #{routine.messages.where(role: 'assistant').order(:created_at).last&.content}
       
-      The user has the following comments on the page content, please find them here: #{routine.messages.where(role: 'user').last&.content}
+      The user has the following comments on the page content, please find them here: #{routine.messages.where(role: 'user').order(:created_at).last&.content}
       
       Please update the workout plan according to the user's comments while keeping the same structure and HTML format.
       Generate an updated HTML workout plan with the same styling and layout, incorporating the user's feedback.

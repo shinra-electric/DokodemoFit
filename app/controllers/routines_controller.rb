@@ -28,6 +28,7 @@ class RoutinesController < ApplicationController
     def show
       @image = ["running.gif", "squat.gif", "big_curl.gif","big_curling.gif"]
       @routine = Routine.find(params[:id])
+      @message = Message.new
       redirect_to root_path unless @routine.user = current_user
     end
 

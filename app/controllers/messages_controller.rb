@@ -6,7 +6,7 @@ class MessagesController < ApplicationController
     @message.routine = @routine
     if @message.valid?
       # TODO: Have the AI to answer this message
-      AiInitialPromptService.new(@message).call
+      UpdatePromptService.new(@message).call
       redirect_to routine_path(@routine)
       # we want to get just the last two messages create, and insert them on the page
       # Find the messages div
