@@ -1,32 +1,23 @@
 <div class="container">
   <!-- Page Banner -->
   <div class="banner mb-5" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<%= asset_path(@image.sample) %>);">
-
     <%= link_to routines_path, class: "btn btn-outline-secondary position-btn" do %>
-    <i class="fa-regular fa-circle-left text-white"></i> <span class="text-white">Routines</span>
+      <i class="fa-regular fa-circle-left text-white"></i> <span class="text-white">Routines</span>
     <% end %>
-
-
     <div class="container position-banner">
-      <h1><%= @routine.title %></h1>
-      <p>Goal: <%= @routine.goal %></p>
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
-      <div class="modal fade" id="modalform" tabindex="-1">
+      <h1 class="mb-3">Your routine</h1>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
+      <div class="modal fade" id="modalcomment" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Revise Routine</h5>
+              <h5 class="modal-title">Revise your routine</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <%= simple_form_for @routine do |f| %>
-                <%= f.input :title %>
-                <%= f.input :goal %>
-                <%= f.input :equipment %>
-                <%= f.input :comments %>
-              </div>
-              <div class="modal-footer">
-                <%= f.button :submit, class:"btn btn-secondary" %>
+              <%= simple_form_for [@routine, @message] do |f| %>
+                <%= f.input :content, label: "What would you like to change?" %>
+                <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
               <% end %>
             </div>
           </div>
@@ -34,29 +25,30 @@
       </div>
     </div>
   </div>
-
-<%= @routine.messages.where(role: 'assistant').order(:created_at).last&.content.html_safe %>
-
+  <div>
+    <%= @routine.messages.where(role: 'assistant').order(:created_at).last&.content.html_safe %>
+    <div class="align-vertical-center">
       <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
-      <div class="modal fade" id="modalcomment" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Revise your routine</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <%= simple_form_for [@routine, @message] do |f| %>
-                      <%= f.input :content, label: "What would you like to change?" %>
-                      <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
-                      <% end %>
-                  </div>
-              </div>
-          </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalcomment" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Revise your routine</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <%= simple_form_for [@routine, @message] do |f| %>
+            <%= f.input :content, label: "What would you like to change?" %>
+            <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
-
+</div>
+</div>
 <!-- need to fix the code below -->
 <!-- <%#= link_to "Edit", edit_routine_path(@routine), class: "btn btn-warning" %> -->
 <!-- <%#= link_to "Create a new routine", new_routine_path, class: "btn btn-warning" %> -->
