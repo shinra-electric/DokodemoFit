@@ -6,7 +6,7 @@
     <% end %>
     <div class="container position-banner">
       <h1 class="mb-3">Your routine</h1>
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
+      <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
       <div class="modal fade" id="modalcomment" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -17,7 +17,7 @@
             <div class="modal-body">
               <%= simple_form_for [@routine, @message] do |f| %>
                 <%= f.input :content, label: "What would you like to change?" %>
-                <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
+                <%= f.button :submit, "Update Plan", class:"btn btn-warning" %>
               <% end %>
             </div>
           </div>
@@ -27,8 +27,8 @@
   </div>
   <div>
     <%= @routine.messages.where(role: 'assistant').order(:created_at).last&.content.html_safe %>
-    <div class="align-vertical-center">
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
+    <div class="align-vertical-center d-flex justify-content-center">
+      <button class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#modalcomment">Revise</button>
     </div>
   </div>
   <div class="modal fade" id="modalcomment" tabindex="-1">
@@ -41,7 +41,7 @@
         <div class="modal-body">
           <%= simple_form_for [@routine, @message] do |f| %>
             <%= f.input :content, label: "What would you like to change?" %>
-            <%= f.button :submit, "Update Plan", class:"btn btn-primary" %>
+            <%= f.button :submit, "Update Plan", class:"btn btn-warning" %>
           <% end %>
         </div>
       </div>
