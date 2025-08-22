@@ -20,11 +20,11 @@
                     <%= f.input :goal %>
                     <%#= f.input :experience, as: :radio_buttons, collection: [['Beginner', 'beginner'], ['Intermediate', 'intermediate'], ['Advanced', 'advanced']], item_wrapper_class: 'form-check', item_label_class: 'form-check-label' %>
                     <%= f.input :equipment %>
-                    <%= f.input :comments %>        
+                    <%= f.input :comments %>
                 </div>
                 <div class="modal-footer">
                     <%= f.button :submit, class:"btn btn-secondary" %>
-                    <% end %>    
+                    <% end %>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
 
 <!-- Search Form -->
 <%= simple_form_for :search, url: routines_path, method: :get do |f| %>
-  <div class="search-form-control form-group mt-5 mb-5 ">
+  <div class="search-form-control form-group mt-5 mb-5 w-25">
     <input class="form-control string required" type="text" name="search[query]" id="search_query" />
     <button name="button" type="submit" class="btn btn-flat">
       <i class="fas fa-search"></i> Search
@@ -52,7 +52,7 @@
     <div class="col-12 col-sm-6 col-md-4">
     <%= link_to routine_path(routine) do %>
       <div class="card-trip mt-4">
-        <%= image_tag 'routine_cardio.png', alt: "Cardio home gym equipment." %>
+        <%= image_tag @image.sample, alt: "Cardio home gym equipment." %>
         <div class="card-trip-infos">
           <div>
             <h2><%= routine.title %></h2>
