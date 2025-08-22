@@ -19,15 +19,7 @@ class Message < ApplicationRecord
       <h4>The user's goal is to #{routine.goal}</h3>
       <h4>The user has the following equipment available: #{routine.equipment}.</h3>
       <h4>The user has the following comments: #{routine.comments}.</h3>
-      <h4>The workout plan should be in the following format:</h3>
-        <table>
-          <tr>
-            <th>[Day of the week]</th>
-            <th>[Exercise Name]</th>
-            <th>[Sets]</th>
-            <th>[Reps]</th>
-          </tr>
-        </table>
+      
         generate an HTML only with some BS 5.3 styling based on what's written here. No intro, nothing else. 
         generate an HTML only based on what's written here. No intro, nothing else. 
       I want it to look like this : 
@@ -35,32 +27,6 @@ class Message < ApplicationRecord
     <div class="container">
       <h1><%= @routine.title %></h1>
       <p>Goal: <%= @routine.goal %></p>
-
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalform">Revise</button>
-      <div class="modal fade" id="modalform" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :title %>
-                      <%= f.input :goal %>
-                      <%= f.input :equipment %>
-                      <%= f.input :comments %>
-                  </div>
-                  <div class="modal-footer">
-                      <%= f.button :submit, class:"btn btn-secondary" %>
-                      <% end %>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
-
 
   <div class="mt-4 mb-4">
     <h3>Summary</h3>
@@ -177,53 +143,22 @@ class Message < ApplicationRecord
         </div>
       </div>
     </div>
-
-    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modaladdcomment">Add Comment</button>
-    <div class="modal fade" id="modaladdcomment" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Add Comment</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <%= simple_form_for @routine do |f| %>
-                      <%= f.input :comments, class: "mb-1" %>
-                  </div>
-                  <div class="modal-footer">
-                      <%= f.button :submit, class: "btn btn-secondary" %>
-                      <% end %>
-                  </div>
-              </div>
-          </div>
-      </div>
   </div>
 </div>"
-
-    PROMPT
+PROMPT
   end
 
   def update_prompt
     <<~PROMPT
       You are a personal trainer and fitness coach with deep knowledge of exercise science, biomechanics, and program design.
-      You are helping a user create a new workout routine based on their needs. 
-      You are giving them a complete workout plan, with specific exercises and sets and a frequency adapted to their level.
-      Generate a workout plan for the user, with specific exercises and sets.
-      The workout plan should be in the following format:
-      <h2>[Workout Plan Title]</h2>
-      <p>[summary of the workout plan]</p>
-      <h3>The user's goal is to #{routine.goal}</h3>
-      <h3>The user has the following equipment available: #{routine.equipment}.</h3>
-      <h3>The user has the following comments: #{routine.comments}.</h3>
-      <h3>The workout plan should be in the following format:</h3>
-        <table>
-          <tr>
-            <th>[Day of the week]</th>
-            <th>[Exercise Name]</th>
-            <th>[Sets]</th>
-            <th>[Reps]</th>
-          </tr>
-        </table>
+      
+      We already created an HTML workout plan, please find it here: #{routine.messages.where(role: 'assistant').last&.content}
+      
+      The user has the following comments on the page content, please find them here: #{routine.messages.where(role: 'user').last&.content}
+      
+      Please update the workout plan according to the user's comments while keeping the same structure and HTML format.
+      Generate an updated HTML workout plan with the same styling and layout, incorporating the user's feedback.
+      Return only the HTML content, no additional text or explanations.
     PROMPT
   end
 
