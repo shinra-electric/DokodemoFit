@@ -1,6 +1,6 @@
 <div class="container">
   <!-- Page Banner -->
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<%= asset_path("squat_pose.png") %>);">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<%= asset_path(@image.sample) %>);">
 
     <%= link_to routines_path, class: "btn btn-outline-secondary position-btn" do %>
     <i class="fa-regular fa-circle-left text-white"></i> <span class="text-white">Routines</span>
