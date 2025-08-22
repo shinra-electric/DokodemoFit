@@ -39,14 +39,5 @@
 
 </div>
 
-<% @routine.messages.each do |message| %>
-<p><%= message.content %> (<%= message.role%>)</p>
 
-<% end %>
-  <div>
-  <%= simple_form_for [@routine, Message.new] do |f| %>
-    <%= f.input :content %>
-    <%= f.submit 'Send' %>
-  <% end %>
-  </div>
 </div>
