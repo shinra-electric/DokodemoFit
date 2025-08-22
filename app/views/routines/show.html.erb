@@ -1,6 +1,6 @@
 <div class="container">
   <!-- Page Banner -->
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<%= asset_path(@image.sample) %>);">
+  <div class="banner mb-5" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<%= asset_path(@image.sample) %>);">
 
     <%= link_to routines_path, class: "btn btn-outline-secondary position-btn" do %>
     <i class="fa-regular fa-circle-left text-white"></i> <span class="text-white">Routines</span>
@@ -62,4 +62,3 @@
 <!-- need to fix the code below -->
 <!-- <%#= link_to "Edit", edit_routine_path(@routine), class: "btn btn-warning" %> -->
 <!-- <%#= link_to "Create a new routine", new_routine_path, class: "btn btn-warning" %> -->
-
